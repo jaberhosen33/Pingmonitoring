@@ -13,7 +13,7 @@ namespace WebApplication2.Services
 
             using var ping = new Ping();
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 7; i++)
             {
                 try
                 {

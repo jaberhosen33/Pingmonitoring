@@ -4,35 +4,77 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - </title>
+
+
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApplication2.styles.css" asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcXnK+2aAeF3z2hU6X1qgXyy14NEH7WECBR1XYO5eD4cFa5pW6oqj1URJMyQ+u+zW+EHOxCU0Dbg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        canvas {
+            width: 180px;
+            height: 180px;
+            display: block;
+            /* margin: 20px auto; */
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .color-box {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> <span class="alert-primary">PinG MonitoR By JabeR</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"> *@
+        @*     <div class="container-fluid"> *@
+              
+        @*         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" *@
+        @*                 aria-expanded="false" aria-label="Toggle navigation"> *@
+        @*             <span class="navbar-toggler-icon"></span> *@
+        @*         </button> *@
+        @*         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between"> *@
+        @*             <ul class="navbar-nav flex-grow-1"> *@
+        @*                 <li class="nav-item"> *@
+                           
+        @*                 </li> *@
+        @*                 <li class="nav-item"> *@
+        @*                     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a> *@
+        @*                 </li> *@
+        @*                 <li class="nav-item"> *@
+        @*                     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+        @*                 </li> *@
+
+                       
+        @*             </ul> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* </nav> *@
+
+		<div class="">
+			<img style="height:40px; width:1000px;margin-left:250px;" src="~/image/shawnologo.png" />
+			@* <img style="height:50px; width:500px;" src="image\shawnologo.png" /> *@
+       </div>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid">
+        <main role="main" class="pb-3 m-3">
             @RenderBody()
         </main>
     </div>
@@ -45,6 +87,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    @* <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script> *@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

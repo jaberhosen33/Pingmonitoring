@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Models;
 using WebApplication2.Services;
-using WebApplication2;
 
 namespace WebApplication2.Controllers
 {
@@ -17,19 +16,18 @@ namespace WebApplication2.Controllers
             _pingService = pingService;
         }
 
-        // Now accept 'filter' and 'searchTerm'
         public async Task<IActionResult> Index(string filter, string searchTerm)
         {
             var outlets = await _context.Outlets.ToListAsync();
-            var totalDown = outlets.FindAll(a => a.LastPingStatus == "Connection Lost").Count();
-            ViewData["TotalDown"] = totalDown;
-            
-            var highPing = outlets.FindAll(a => a.LastPingStatus == "High Ping").Count();
-            ViewData["HighPing"] = highPing;
-            Console.WriteLine(ViewData["HighPing"]);
-            var uplink = outlets.FindAll(a => a.LastPingStatus == "Good").Count();
-            ViewData["Uplink"] = uplink;
 
+            var totalDown = outlets.Count(a => a.LastPingStatus == "Connection Lost");
+            ViewData["TotalDown"] = totalDown;
+
+            var highPing = outlets.Count(a => a.LastPingStatus == "High Ping");
+            ViewData["HighPing"] = highPing;
+
+            var uplink = outlets.Count(a => a.LastPingStatus == "Good");
+            ViewData["Uplink"] = uplink;
 
             if (!string.IsNullOrEmpty(filter))
             {
@@ -51,8 +49,9 @@ namespace WebApplication2.Controllers
             {
                 searchTerm = searchTerm.ToLower();
                 outlets = outlets.Where(x =>
-                    (x.OutletName != null && x.OutletName.ToLower().Contains(searchTerm)) ||
-                    (x.OutletCode != null && x.OutletCode.ToLower().Contains(searchTerm))
+                    (!string.IsNullOrEmpty(x.OutletName) && x.OutletName.ToLower().Contains(searchTerm)) ||
+                    (!string.IsNullOrEmpty(x.OutletCode) && x.OutletCode.ToLower().Contains(searchTerm)) ||
+                    (!string.IsNullOrEmpty(x.ISPName) && x.ISPName.ToLower().Contains(searchTerm))
                 ).ToList();
             }
 
@@ -63,15 +62,36 @@ namespace WebApplication2.Controllers
         public async Task<IActionResult> CheckConnections()
         {
             var outlets = await _context.Outlets.ToListAsync();
+            var semaphore = new SemaphoreSlim(50); // Adjust concurrency limit as needed
+            var tasks = new List<Task>();
 
             foreach (var outlet in outlets)
             {
-                var (status, avgTime) = await _pingService.CheckPingStatusAsync(outlet.IpAddress);
-                outlet.LastPingStatus = status;
-                outlet.LastPingTime = status == "Connection Lost" ? null : DateTime.Now;
+                await semaphore.WaitAsync();
+
+                var task = Task.Run(async () =>
+                {
+                    try
+                    {
+                        var (status, avgTime) = await _pingService.CheckPingStatusAsync(outlet.IpAddress);
+                        lock (outlet) // Optional: safe guard model state if used elsewhere
+                        {
+                            outlet.LastPingStatus = status;
+                            outlet.LastPingTime = status == "Connection Lost" ? null : DateTime.Now;
+                        }
+                    }
+                    finally
+                    {
+                        semaphore.Release();
+                    }
+                });
+
+                tasks.Add(task);
             }
 
+            await Task.WhenAll(tasks);
             await _context.SaveChangesAsync();
+
             return RedirectToAction("Index");
         }
     }
