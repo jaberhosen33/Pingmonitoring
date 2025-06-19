@@ -5,7 +5,7 @@
     var searchTerm = Context.Request.Query["searchTerm"];
 }
 
-<h2>Ping Monitor</h2>
+<h2 class="mb-3">Ping Monitor</h2>
 
 
 <div class="row mb-5">
@@ -14,13 +14,24 @@
         <form id="searchForm" asp-action="Index" method="get" class="input-group">
             <input type="text" id="searchInput" name="searchTerm" class="form-control" placeholder="Search by Outlet Name or Code..." value="@Context.Request.Query["searchTerm"]" autocomplete="off" />
             <button class="btn btn-outline-secondary" type="submit">Search</button>
-        </form>
-        <div id="loadingSpinner" class="text-center mt-3 col-md-6" style="display: none;">
-            @* <div class="spinner-border text-primary" role="status"> *@
-            @*     <span class="visually-hidden">Loading...</span> *@
-            @* </div> *@
-            <p>Checking connections... .</p>
+             </form>
+        <div style="height:100px;">
+           
+            <div id="loadingSpinner" class="text-center mt-5 col-md-6" style="display: none;">
+                @* <div class="spinner-border text-primary" role="status"> *@
+                @*     <span class="visually-hidden">Loading...</span> *@
+                @* </div> *@
+                @* <p>Checking connections... .</p> *@
+               
+                    <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+                    <span role="status">Checking connections...</span>
+               
+            </div>
         </div>
+       
+
+
+
     </div>
 
     <!-- Column 2: Check Connections Button -->
@@ -44,6 +55,10 @@
                     }
                 </span>
             </div>
+            <div>
+
+                
+            </div>
             <div class="legend-item d-flex align-items-center gap-2">
                 <div class="color-box" style="background-color: yellow; width: 16px; height: 16px;"></div> HIGH Latency
                 <span class="fw-bold fs-5">
@@ -63,8 +78,12 @@
                 </span>
             </div>
         </div>
+        
     </div>
 </div>
+
+
+
 
 
 <!-- Search Form -->
@@ -116,27 +135,35 @@
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
-            <th>Outlet Name</th>
             <th>Outlet Code</th>
+            <th>Outlet Name</th>
             <th>IP Address</th>
             <th>ISP</th>
             <th>Phone</th>
             <th>Status </th>
             <th>Last Checked</th>
+            <th>Duration</th>
 
         </tr>
     </thead>
-    <tbody>
+    <tbody class="">
         @foreach (var item in Model)
         {
             <tr>
-               
+
+                <td class="fw-bold">@item.OutletCode</td>
                 <td>@item.OutletName</td>
-                <td>@item.OutletCode</td>
                 <td>
                     <span id="ip-@item.Id">@item.IpAddress</span>
-                    <i class="fas fa-copy text-success" style="cursor: pointer; margin-left: 5px;" onclick="copyToClipboard('ip-@item.Id')">copy</i>
+                    <i id="copy-icon-@item.Id"
+                       class="fas fa-copy text-success"
+                       style="cursor: pointer; margin-left: 5px;"
+                       onclick="copyToClipboard('ip-@item.Id', 'copy-icon-@item.Id')"
+                       title="Copy to clipboard"> </i>
+
                 </td>
+
+
                 @* <td>@item.IpAddress</td> *@
                 <td>@item.ISPName</td>
                 <td>@item.ISPPhone</td>
@@ -157,122 +184,127 @@
                     }
                 </td>
                 <td>@(item.LastPingTime?.ToString("g") ?? "Never")</td>
+
+                @{
+                    DateTime now = DateTime.Now; // Use local time if LastPingTime is local
+                    DateTime? lastPing = item.LastPingTime;
+
+                    TimeSpan? duration = lastPing.HasValue ? now - lastPing.Value : (TimeSpan?)null;
+                }
+                <td>
+                    @(duration.HasValue ? $"{duration.Value.Days}d {duration.Value.Hours}h {duration.Value.Minutes}m ago" : "Never")
+                </td>
+
+
             </tr>
         }
     </tbody>
 </table>
 
-<!-- Scripts -->
-@* @section Scripts { *@
-@*     <script> *@
-@*         document.getElementById("checkConnectionsForm").addEventListener("submit", function () { *@
-@*             document.getElementById("loadingSpinner").style.display = "block"; *@
-@*         }); *@
-
-@*                function copyToClipboard(elementId) { *@
-@*             var text = document.getElementById(elementId).innerText; *@
-@*             navigator.clipboard.writeText(text).then(function () { *@
-@*                 alert("Copied: " + text); *@
-@*             }, function (err) { *@
-@*                 alert("Failed to copy!"); *@
-@*             }); *@
-@*         } *@
-@*     </script> *@
-@* } *@
-
 @section Scripts {
     <script>
-        // Auto check and reload every 5 minutes (300000 ms)
+        // Auto check and reload every 100000 ms (~1.6 minutes)
         setInterval(() => {
             checkConnectionsAndReload();
-        }, 10000); // 5 minutes
+        }, 100000);
 
         async function checkConnectionsAndReload() {
             try {
-                // Show loading spinner
                 document.getElementById("loadingSpinner").style.display = "block";
-
-                // Send POST request to CheckConnections
                 const response = await fetch('@Url.Action("CheckConnections", "Home")', {
                     method: 'POST'
                 });
-
-                // Once done, reload the page
                 location.reload();
             } catch (err) {
                 console.error("Ping check failed", err);
             }
         }
 
-        // Manual check shows spinner too
+        // Manual check - show spinner on submit
         document.getElementById("checkConnectionsForm").addEventListener("submit", function () {
             document.getElementById("loadingSpinner").style.display = "block";
         });
 
-        function copyToClipboard(elementId) { 
-             var text = document.getElementById(elementId).innerText; 
-            navigator.clipboard.writeText(text).then(function () { 
-                 alert("Copied: " + text); 
-            }, function (err) { 
-                 alert("Failed to copy!"); 
-             }); 
-         }
-        
+                function copyToClipboard(elementId, iconId) {
+            var textElement = document.getElementById(elementId);
+            var iconElement = document.getElementById(iconId);
+
+            if (!textElement || !iconElement) {
+                alert("Element not found!");
+                return;
+            }
+
+            var text = textElement.innerText || textElement.textContent;
+
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(function () {
+                    showCopiedFeedback(iconElement);
+                }).catch(function (err) {
+                    alert("Failed to copy: " + err);
+                });
+            } else {
+                // Fallback for old browsers
+                const textarea = document.createElement("textarea");
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                try {
+                    document.execCommand('copy');
+                    showCopiedFeedback(iconElement);
+                } catch (err) {
+                    alert("Fallback copy failed: " + err);
+                }
+                document.body.removeChild(textarea);
+            }
+        }
+
+        // 👇 This function handles the icon change and revert
+        function showCopiedFeedback(iconElement) {
+            const originalClass = iconElement.className;
+            iconElement.className = "fas fa-check text-primary";
+            iconElement.title = "Copied!";
+
+            // Revert back after 1.5 seconds
+            setTimeout(() => {
+                iconElement.className = originalClass;
+                iconElement.title = "Copy to clipboard";
+            }, 1500);
+        }
+
     </script>
+
     <script>
+        // Pie Chart Drawing
         const canvas = document.getElementById('pieChart');
         const ctx = canvas.getContext('2d');
 
-        // Data and labels
-        const data = [@{
-            @ViewData["Uplink"].ToString()
-            ;
-        }, @{
-            @ViewData["TotalDown"].ToString()
-            ;
-        }, @{
-            @ViewData["HighPing"].ToString()
-            ;
-        }];
-        const labels = ['Segment A', 'Segment B', 'Segment C'];
-        const colors = ['seagreen', 'red', '#ffcd56'];
+        const data = [@ViewData["Uplink"], @ViewData["TotalDown"], @ViewData["HighPing"]];
+        const colors = ['seagreen', 'crimson', 'yellow'];
         const total = data.reduce((a, b) => a + b, 0);
         let startAngle = 0;
 
         data.forEach((value, index) => {
-          const sliceAngle = (value / total) * 2 * Math.PI;
+            const sliceAngle = (value / total) * 2 * Math.PI;
 
-          // Draw segment
-          ctx.beginPath();
-          ctx.moveTo(100, 100);
-          ctx.arc(100, 100, 100, startAngle, startAngle + sliceAngle);
-          ctx.closePath();
-          ctx.fillStyle = colors[index];
-          ctx.fill();
+            ctx.beginPath();
+            ctx.moveTo(100, 100);
+            ctx.arc(100, 100, 100, startAngle, startAngle + sliceAngle);
+            ctx.closePath();
+            ctx.fillStyle = colors[index];
+            ctx.fill();
 
-          // Draw percentage text
-          const midAngle = startAngle + sliceAngle / 2;
-          const labelX = 100 + Math.cos(midAngle) * 60;
-          const labelY = 100 + Math.sin(midAngle) * 60;
-          const percent = Math.round((value / total) * 100);
-          ctx.fillStyle = '#fff';
-          ctx.font = 'bold 20px Arial';
-          ctx.textAlign = 'center';
-          ctx.fillText(`${percent}%`, labelX, labelY);
+            const midAngle = startAngle + sliceAngle / 2;
+            const labelX = 100 + Math.cos(midAngle) * 60;
+            const labelY = 100 + Math.sin(midAngle) * 60;
+            const percent = Math.round((value / total) * 100);
 
-          startAngle += sliceAngle;
-        });
-    </script>
-    <script>
-        const input = document.getElementById('searchInput');
-        const form = document.getElementById('searchForm');
-        let timeout = null;
+            ctx.fillStyle = '#fff';
+            ctx.font = 'bold 16px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(`${percent}%`, labelX, labelY);
 
-        input.addEventListener('keyup', function () {
-            clearTimeout(timeout);
-            timeout = setTimeout(() => {
-                form.submit();
-            }, 1000); // Delay to avoid excessive requests
+            startAngle += sliceAngle;
         });
     </script>
 }
+

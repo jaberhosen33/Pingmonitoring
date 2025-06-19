@@ -23,7 +23,7 @@ namespace WebApplication2.Services
                         totalPingTime += reply.RoundtripTime;
                         successCount++;
 
-                        if (reply.RoundtripTime > 10)
+                        if (reply.RoundtripTime > 15)
                             highPingCount++;
                     }
                     else
@@ -39,7 +39,7 @@ namespace WebApplication2.Services
                 await Task.Delay(100);
             }
 
-            if (timeoutCount >= 1)
+            if (timeoutCount >= 5)
                 return ("Connection Lost", -1);
 
             if (highPingCount >= 3)

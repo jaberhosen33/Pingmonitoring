@@ -19,7 +19,7 @@ namespace WebApplication2.Controllers
         public async Task<IActionResult> Index(string filter, string searchTerm)
         {
             var outlets = await _context.Outlets.ToListAsync();
-
+            
             var totalDown = outlets.Count(a => a.LastPingStatus == "Connection Lost");
             ViewData["TotalDown"] = totalDown;
 
@@ -28,6 +28,13 @@ namespace WebApplication2.Controllers
 
             var uplink = outlets.Count(a => a.LastPingStatus == "Good");
             ViewData["Uplink"] = uplink;
+            //ispcount outlet
+            //var TotalCCL = outlets.Count(a => a.ISPName == "CCL");
+            //ViewData["CCL"] = TotalCCL;
+
+             var TotalAmber = outlets.Count(a => a.ISPName == "Agni");
+            ViewData["Agni"] = TotalAmber;
+
 
             if (!string.IsNullOrEmpty(filter))
             {
@@ -77,7 +84,12 @@ namespace WebApplication2.Controllers
                         lock (outlet) // Optional: safe guard model state if used elsewhere
                         {
                             outlet.LastPingStatus = status;
-                            outlet.LastPingTime = status == "Connection Lost" ? null : DateTime.Now;
+                            //outlet.LastPingTime = status != "Connection Lost" ? null : DateTime.Now;
+
+                            if ( status != "Connection Lost")
+                            {
+                                outlet.LastPingTime = DateTime.Now;
+                            }
                         }
                     }
                     finally

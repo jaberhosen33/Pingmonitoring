@@ -65,47 +65,48 @@ namespace WebApplication2.Migrations
                         {
                             Id = 1,
                             ISPName = "Drick",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.18.4.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "B004",
-                            OutletName = "Sadar Road Barisal"
+                            OutletName = "Sadar Road, Barisal"
                         },
                         new
                         {
                             Id = 2,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.2.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C001",
-                            OutletName = "Golpahar-CTG"
+                            OutletName = "Golpahar"
                         },
                         new
                         {
                             Id = 3,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.9.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C009",
-                            OutletName = "Halishohor"
+                            OutletName = "Halishahar"
                         },
                         new
                         {
                             Id = 4,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.11.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C011",
-                            OutletName = "Comilla"
+                            OutletName = "Cumilla 1"
                         },
                         new
                         {
                             Id = 5,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
-                            IpAddress = "172.15.4.1",
+                            ISPPhone = "1615002223",
+                            IpAddress = "172.15.4.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C012",
                             OutletName = "B.Baria"
@@ -114,17 +115,17 @@ namespace WebApplication2.Migrations
                         {
                             Id = 6,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.13.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C013",
-                            OutletName = "Comilla-2"
+                            OutletName = "Cumilla 2"
                         },
                         new
                         {
                             Id = 7,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.15.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C015",
@@ -134,7 +135,7 @@ namespace WebApplication2.Migrations
                         {
                             Id = 8,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.16.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C016",
@@ -144,7 +145,7 @@ namespace WebApplication2.Migrations
                         {
                             Id = 9,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.17.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C017",
@@ -154,37 +155,37 @@ namespace WebApplication2.Migrations
                         {
                             Id = 10,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.18.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C018",
-                            OutletName = "Jamal Khan, CTG"
+                            OutletName = "Jamalkhan, CTG"
                         },
                         new
                         {
                             Id = 11,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.19.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C019",
-                            OutletName = "Cox's Bazar"
+                            OutletName = "Kolatoli, Cox’s Bazar"
                         },
                         new
                         {
                             Id = 12,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.20.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C020",
-                            OutletName = "Brahmanbaria"
+                            OutletName = "Brahmanbaria Sadar"
                         },
                         new
                         {
                             Id = 13,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.21.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "C021",
@@ -194,8 +195,8 @@ namespace WebApplication2.Migrations
                         {
                             Id = 14,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "10.1.83.1",
+                            ISPPhone = "16615",
+                            IpAddress = "10.1.83.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D002",
                             OutletName = "Postogola"
@@ -204,17 +205,17 @@ namespace WebApplication2.Migrations
                         {
                             Id = 15,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.1.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D003",
-                            OutletName = "Uttara-6"
+                            OutletName = "Uttara 6"
                         },
                         new
                         {
                             Id = 16,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.38.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D004",
@@ -224,17 +225,17 @@ namespace WebApplication2.Migrations
                         {
                             Id = 17,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.53.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D006",
-                            OutletName = "Malibag"
+                            OutletName = "Malibag Mor"
                         },
                         new
                         {
                             Id = 18,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.52.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D007",
@@ -244,37 +245,37 @@ namespace WebApplication2.Migrations
                         {
                             Id = 19,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.63.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D011",
-                            OutletName = "Nazimuddin"
+                            OutletName = "Nazimuddin Road"
                         },
                         new
                         {
                             Id = 20,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.202.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D014",
-                            OutletName = "Narayanganj"
+                            OutletName = "Missionpara"
                         },
                         new
                         {
                             Id = 21,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.2.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D016",
-                            OutletName = "Uttara Chourasta"
+                            OutletName = "Uttara 11"
                         },
                         new
                         {
                             Id = 22,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.16.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D017",
@@ -284,7 +285,7 @@ namespace WebApplication2.Migrations
                         {
                             Id = 23,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.23.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D018",
@@ -294,37 +295,37 @@ namespace WebApplication2.Migrations
                         {
                             Id = 24,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.13.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D019",
-                            OutletName = "Sky View"
+                            OutletName = "Skyview"
                         },
                         new
                         {
                             Id = 25,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.19.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D021",
-                            OutletName = "Banani-1"
+                            OutletName = "Banani 1"
                         },
                         new
                         {
                             Id = 26,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.10.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D023",
-                            OutletName = "Nikunjo"
+                            OutletName = "Nikunja"
                         },
                         new
                         {
                             Id = 27,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.24.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D024",
@@ -334,37 +335,37 @@ namespace WebApplication2.Migrations
                         {
                             Id = 28,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.31.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D031",
-                            OutletName = "Gulshan-2"
+                            OutletName = "Gulshan 2"
                         },
                         new
                         {
                             Id = 29,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.30.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D034",
-                            OutletName = "Shajahan Road"
+                            OutletName = "Shahjahan Road"
                         },
                         new
                         {
                             Id = 30,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.36.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D041",
-                            OutletName = "Jatrabari-2"
+                            OutletName = "Jatrabari 2"
                         },
                         new
                         {
                             Id = 31,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.3.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D045",
@@ -374,8 +375,8 @@ namespace WebApplication2.Migrations
                         {
                             Id = 32,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.16.46.1",
+                            ISPPhone = "1841073044",
+                            IpAddress = "172.16.46.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D046",
                             OutletName = "Lakecity"
@@ -384,77 +385,77 @@ namespace WebApplication2.Migrations
                         {
                             Id = 33,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.47.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D047",
-                            OutletName = "Joydevpur"
+                            OutletName = "Joydebpur"
                         },
                         new
                         {
                             Id = 34,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.16.48.1",
+                            ISPPhone = "16615",
+                            IpAddress = "172.16.48.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D049",
-                            OutletName = "North Banasree-2"
+                            OutletName = "N. Banasree 2"
                         },
                         new
                         {
                             Id = 35,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.51.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D051",
-                            OutletName = "Central Basabo-2"
+                            OutletName = "C. Basabo (2)"
                         },
                         new
                         {
                             Id = 36,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.54.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D053",
-                            OutletName = "South Kajla"
+                            OutletName = "Kajla"
                         },
                         new
                         {
                             Id = 37,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.4.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D054",
-                            OutletName = "Rampura Mohanagar"
+                            OutletName = "Mahanagar"
                         },
                         new
                         {
                             Id = 38,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.16.55.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D055",
-                            OutletName = "Mirpur-12 Pollobi"
+                            OutletName = "Mirpur 12"
                         },
                         new
                         {
                             Id = 39,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.56.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D056",
-                            OutletName = "Kazipara-2"
+                            OutletName = "Kazipara 2"
                         },
                         new
                         {
                             Id = 40,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.58.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D058",
@@ -464,47 +465,47 @@ namespace WebApplication2.Migrations
                         {
                             Id = 41,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.59.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D059",
-                            OutletName = "Monipuri Para"
+                            OutletName = "Monipuripara"
                         },
                         new
                         {
                             Id = 42,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.60.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D060",
-                            OutletName = "Gopibagh"
+                            OutletName = "Gopibag"
                         },
                         new
                         {
                             Id = 43,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.61.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D061",
-                            OutletName = "Banani-2"
+                            OutletName = "Banani 2"
                         },
                         new
                         {
                             Id = 44,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.62.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D062",
-                            OutletName = "Gulshan-1"
+                            OutletName = "Gulshan 1"
                         },
                         new
                         {
                             Id = 45,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.64.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D063",
@@ -514,27 +515,27 @@ namespace WebApplication2.Migrations
                         {
                             Id = 46,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.21.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D064",
-                            OutletName = "Panthapath"
+                            OutletName = "Panthapath (2)"
                         },
                         new
                         {
                             Id = 47,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.15.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D065",
-                            OutletName = "Mirpur-6"
+                            OutletName = "Mirpur 6 (2)"
                         },
                         new
                         {
                             Id = 48,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.43.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D067",
@@ -544,97 +545,97 @@ namespace WebApplication2.Migrations
                         {
                             Id = 49,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.68.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D068",
-                            OutletName = "Kaderabad Ho"
+                            OutletName = "Kaderiabad Housing"
                         },
                         new
                         {
                             Id = 50,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.70.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D070",
-                            OutletName = "Mirpur-1"
+                            OutletName = "Mirpur 1"
                         },
                         new
                         {
                             Id = 51,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.71.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D071",
-                            OutletName = "Mirpur-10"
+                            OutletName = "Mirpur 10"
                         },
                         new
                         {
                             Id = 52,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.72.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D072",
-                            OutletName = "Mirpur-11"
+                            OutletName = "Mirpur 11"
                         },
                         new
                         {
                             Id = 53,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.74.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D074",
-                            OutletName = "Jigatola"
+                            OutletName = "Dhaka Jigatola"
                         },
                         new
                         {
                             Id = 54,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.75.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D075",
-                            OutletName = "Dhanmondi-27"
+                            OutletName = "Dhanmondi 27"
                         },
                         new
                         {
                             Id = 55,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.76.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D076",
-                            OutletName = "Gulshan New"
+                            OutletName = "Gulshan Hosna Center"
                         },
                         new
                         {
                             Id = 56,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
-                            IpAddress = "172.15.2.1",
+                            ISPPhone = "1615002223",
+                            IpAddress = "172.15.2.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D078",
-                            OutletName = "Keranigong"
+                            OutletName = "Keranigonj"
                         },
                         new
                         {
                             Id = 57,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.79.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D079",
-                            OutletName = "Askona"
+                            OutletName = "Ashkona"
                         },
                         new
                         {
                             Id = 58,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.80.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D080",
@@ -644,7 +645,7 @@ namespace WebApplication2.Migrations
                         {
                             Id = 59,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.81.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D081",
@@ -654,27 +655,27 @@ namespace WebApplication2.Migrations
                         {
                             Id = 60,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.16.83.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D083",
-                            OutletName = "Golapbagh"
+                            OutletName = "Golapbag"
                         },
                         new
                         {
                             Id = 61,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.84.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D084",
-                            OutletName = "Basundhara"
+                            OutletName = "Bashundhara"
                         },
                         new
                         {
                             Id = 62,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.16.86.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D086",
@@ -684,67 +685,67 @@ namespace WebApplication2.Migrations
                         {
                             Id = 63,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.88.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D088",
-                            OutletName = "Satarkul-Badda"
+                            OutletName = "Saterkul"
                         },
                         new
                         {
                             Id = 64,
                             ISPName = "CCL",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.87.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D089",
-                            OutletName = "Borobagh-Mirpur"
+                            OutletName = "Borobag"
                         },
                         new
                         {
                             Id = 65,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.91.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D091",
-                            OutletName = "Mirpur-12"
+                            OutletName = "Mirpur 12 Bus Stand"
                         },
                         new
                         {
                             Id = 66,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.92.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D092",
-                            OutletName = "Uttara 3 Rabindra"
+                            OutletName = "Uttara 3-Robindro Sarani"
                         },
                         new
                         {
                             Id = 67,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.93.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D093",
-                            OutletName = "Savar cantonment"
+                            OutletName = "Savar Cantonment"
                         },
                         new
                         {
                             Id = 68,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.95.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D095",
-                            OutletName = "Kamrangichor"
+                            OutletName = "Kamrangirchar"
                         },
                         new
                         {
                             Id = 69,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.16.96.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D096",
@@ -754,37 +755,27 @@ namespace WebApplication2.Migrations
                         {
                             Id = 70,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.16.97.5",
+                            ISPPhone = "1841073044",
+                            IpAddress = "172.16.98.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "D097",
-                            OutletName = "Kashmiritola"
+                            OutletCode = "D098",
+                            OutletName = "Thana Road, Savar"
                         },
                         new
                         {
                             Id = 71,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.16.98.5",
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.16.99.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "D098",
-                            OutletName = "Thana road, Savar"
+                            OutletCode = "D099",
+                            OutletName = "Hasnabad, South Keraniganj"
                         },
                         new
                         {
                             Id = 72,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.16.99.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "D099",
-                            OutletName = "South keranigonj"
-                        },
-                        new
-                        {
-                            Id = 73,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.101.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D101",
@@ -792,39 +783,39 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 74,
+                            Id = 73,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.16.102.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D102",
-                            OutletName = "Mirpur 10 Hoper goli"
+                            OutletName = "Mirpur 10 (Hoper Goli)"
+                        },
+                        new
+                        {
+                            Id = 74,
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.16.104.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "D104",
+                            OutletName = "Ring Road, Mohammadpur"
                         },
                         new
                         {
                             Id = 75,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.16.104.5",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.16.106.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "D104",
-                            OutletName = "Ring Road, Md.pur"
+                            OutletCode = "D106",
+                            OutletName = "Moddho Badda, Dhaka"
                         },
                         new
                         {
                             Id = 76,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "nan",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "D106",
-                            OutletName = "Moddho Badda"
-                        },
-                        new
-                        {
-                            Id = 77,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.16.108.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D108",
@@ -832,209 +823,69 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 78,
+                            Id = 77,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.16.109.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "D109",
-                            OutletName = "Bashundhara G-Block"
+                            OutletName = "Bashundhara, Block-G"
+                        },
+                        new
+                        {
+                            Id = 78,
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.16.77.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F001",
+                            OutletName = "Barisal Express"
                         },
                         new
                         {
                             Id = 79,
-                            ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
-                            IpAddress = "172.17.6.5",
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.16.5.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "K006",
-                            OutletName = "Khulna Moylapota"
+                            OutletCode = "F002",
+                            OutletName = "Jamalpur Express"
                         },
                         new
                         {
                             Id = 80,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.7.5",
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.15.3.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "K007",
-                            OutletName = "Boyra, Khulna"
+                            OutletCode = "F003",
+                            OutletName = "Feni Express"
                         },
                         new
                         {
                             Id = 81,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.18.108.5",
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.16.6.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "K008",
-                            OutletName = "South Central Rd Khulna"
+                            OutletCode = "F004",
+                            OutletName = "Mymensingh Express"
                         },
                         new
                         {
                             Id = 82,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.8.5",
+                            ISPName = "Agni",
+                            ISPPhone = "1615002223",
+                            IpAddress = "172.15.7.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "R008",
-                            OutletName = "Bagura"
+                            OutletCode = "F007",
+                            OutletName = "Tongi 27"
                         },
                         new
                         {
                             Id = 83,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.18.9.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "R009",
-                            OutletName = "Joypurhat"
-                        },
-                        new
-                        {
-                            Id = 84,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.18.10.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "R010",
-                            OutletName = "Naogaon"
-                        },
-                        new
-                        {
-                            Id = 85,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.18.11.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "R011",
-                            OutletName = "Alupatti, Rajshahi"
-                        },
-                        new
-                        {
-                            Id = 86,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.17.27.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "S001",
-                            OutletName = "Multiplan(Uposahar)"
-                        },
-                        new
-                        {
-                            Id = 87,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.17.26.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "S002",
-                            OutletName = "Sylmark(shibgang)"
-                        },
-                        new
-                        {
-                            Id = 88,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.17.25.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "S003",
-                            OutletName = "Sunrise(pathantola)"
-                        },
-                        new
-                        {
-                            Id = 89,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.28.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "S006",
-                            OutletName = "Zinda bazar"
-                        },
-                        new
-                        {
-                            Id = 90,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.29.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "S007",
-                            OutletName = "Beanibazar"
-                        },
-                        new
-                        {
-                            Id = 91,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.17.30.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "S008",
-                            OutletName = "Amberkhana"
-                        },
-                        new
-                        {
-                            Id = 92,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.17.31.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "S009",
-                            OutletName = "MoulviBazar"
-                        },
-                        new
-                        {
-                            Id = 93,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.16.77.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F001",
-                            OutletName = "Barisal"
-                        },
-                        new
-                        {
-                            Id = 94,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.16.5.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F002",
-                            OutletName = "Jamalpur"
-                        },
-                        new
-                        {
-                            Id = 95,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.15.3.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F003",
-                            OutletName = "Feni"
-                        },
-                        new
-                        {
-                            Id = 96,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.16.6.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F004",
-                            OutletName = "Mymensingh"
-                        },
-                        new
-                        {
-                            Id = 97,
-                            ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
-                            IpAddress = "172.15.7.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F007",
-                            OutletName = "Tongi Satash"
-                        },
-                        new
-                        {
-                            Id = 98,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.9.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F009",
@@ -1042,59 +893,59 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 99,
+                            Id = 84,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.10.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F010",
-                            OutletName = "Uttara 10( Rd-12)"
+                            OutletName = "Uttara-10, R/12"
                         },
                         new
                         {
-                            Id = 100,
+                            Id = 85,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.15.12.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F012",
-                            OutletName = "Kathal Bagan"
+                            OutletName = "Kathalbagan"
                         },
                         new
                         {
-                            Id = 101,
+                            Id = 86,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.13.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F013",
-                            OutletName = "Banasree H block"
+                            OutletName = "Banasree H"
                         },
                         new
                         {
-                            Id = 102,
+                            Id = 87,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.15.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F015",
-                            OutletName = "Uttara 9 (3E)"
+                            OutletName = "Uttara 09 (Road-3/E)"
                         },
                         new
                         {
-                            Id = 103,
+                            Id = 88,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.16.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F016",
-                            OutletName = "Modhumita Rd,Tongi"
+                            OutletName = "Modhumita Road, Tongi"
                         },
                         new
                         {
-                            Id = 104,
+                            Id = 89,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.15.17.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F017",
@@ -1102,59 +953,49 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 105,
+                            Id = 90,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.15.18.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F018",
-                            OutletName = "Mirpur 12 (B block)"
-                        },
-                        new
-                        {
-                            Id = 106,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.21.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F021",
-                            OutletName = "Tajmahal road"
+                            OutletName = "Tajmohol Road"
                         },
                         new
                         {
-                            Id = 107,
+                            Id = 91,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.22.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F022",
-                            OutletName = "Dholaikhal"
+                            OutletName = "Dholikhal"
                         },
                         new
                         {
-                            Id = 108,
+                            Id = 92,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.23.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F023",
-                            OutletName = "Shymoli"
+                            OutletName = "Shaymoli (R-2) Express"
                         },
                         new
                         {
-                            Id = 109,
+                            Id = 93,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.15.1.1",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.15.1.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F024",
-                            OutletName = "Tangail"
+                            OutletName = "Tangail Express"
                         },
                         new
                         {
-                            Id = 110,
+                            Id = 94,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.27.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F027",
@@ -1162,29 +1003,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 111,
+                            Id = 95,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.15.30.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F030",
-                            OutletName = "Uttara 9(road 10)"
-                        },
-                        new
-                        {
-                            Id = 112,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.32.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F032",
-                            OutletName = "North Pirerbagh"
+                            OutletName = "North Pirerbag"
                         },
                         new
                         {
-                            Id = 113,
+                            Id = 96,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.34.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F034",
@@ -1192,19 +1023,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 114,
+                            Id = 97,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.38.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F038",
-                            OutletName = "Uttar tolarbagh"
+                            OutletName = "Uttar Tolarbag"
                         },
                         new
                         {
-                            Id = 115,
+                            Id = 98,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.15.39.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F039",
@@ -1212,49 +1043,39 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 116,
+                            Id = 99,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.40.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F040",
-                            OutletName = "Mazar Road, Mirpur"
+                            OutletName = "Mazar Road"
                         },
                         new
                         {
-                            Id = 117,
+                            Id = 100,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
-                            IpAddress = "172.15.41.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F041",
-                            OutletName = "Uttar badda"
-                        },
-                        new
-                        {
-                            Id = 118,
-                            ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.44.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F044",
-                            OutletName = "Jigatola post road"
+                            OutletName = "Jigatola Express"
                         },
                         new
                         {
-                            Id = 119,
+                            Id = 101,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.46.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F046",
-                            OutletName = "Khilgaon tilpapara"
+                            OutletName = "Khilgaon Tilpapara"
                         },
                         new
                         {
-                            Id = 120,
+                            Id = 102,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.15.48.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F048",
@@ -1262,19 +1083,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 121,
+                            Id = 103,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.15.50.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F050",
-                            OutletName = "Mirpur 10( C block)"
-                        },
-                        new
-                        {
-                            Id = 122,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.51.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F051",
@@ -1282,9 +1093,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 123,
+                            Id = 104,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.53.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F053",
@@ -1292,9 +1103,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 124,
+                            Id = 105,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.54.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F054",
@@ -1302,179 +1113,159 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 125,
+                            Id = 106,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.56.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F056",
-                            OutletName = "Mirpur 12 Block Ta"
+                            OutletName = "Mirpur 12 Ta- Block"
                         },
                         new
                         {
-                            Id = 126,
+                            Id = 107,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.62.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F062",
-                            OutletName = "Tannery mor, Hazaribagh"
+                            OutletName = "Tannery Mor, Hazaribagh"
                         },
                         new
                         {
-                            Id = 127,
+                            Id = 108,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.64.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F064",
-                            OutletName = "Shailbari, Rupnagar"
+                            OutletName = "Shialbari, Rupnagar"
                         },
                         new
                         {
-                            Id = 128,
+                            Id = 109,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.65.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F065",
-                            OutletName = "Thana Road , Uttar badda"
+                            OutletName = "Thana Road, Uttar Badda"
                         },
                         new
                         {
-                            Id = 129,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.15.66.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F066",
-                            OutletName = "Madrasa road"
-                        },
-                        new
-                        {
-                            Id = 130,
+                            Id = 110,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.67.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F067",
-                            OutletName = "Shonir akhra"
+                            OutletName = "Shonir Akhra"
                         },
                         new
                         {
-                            Id = 131,
+                            Id = 111,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.70.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F070",
-                            OutletName = "Masdair, Narayanganj"
+                            OutletName = "Masdair, Narayangonj"
                         },
                         new
                         {
-                            Id = 132,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.15.71.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F071",
-                            OutletName = "Kumarpara, Sylhet"
-                        },
-                        new
-                        {
-                            Id = 133,
+                            Id = 112,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.73.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F073",
-                            OutletName = "E.shewrapara Orbit Goli"
+                            OutletName = "East Shewarapara Orbit Goli"
                         },
                         new
                         {
-                            Id = 134,
+                            Id = 113,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.74.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F074",
-                            OutletName = "Tongi collage road"
+                            OutletName = "Tongi College Road"
                         },
                         new
                         {
-                            Id = 135,
+                            Id = 114,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.75.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F075",
-                            OutletName = "W. Shewrapara Olirtek"
+                            OutletName = "West Shewrapara (Olirtek)"
                         },
                         new
                         {
-                            Id = 136,
+                            Id = 115,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.77.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F077",
-                            OutletName = "mawna"
+                            OutletName = "Mawna"
                         },
                         new
                         {
-                            Id = 137,
+                            Id = 116,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.79.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F079",
-                            OutletName = "Shimultali"
+                            OutletName = "Shimultali Express"
                         },
                         new
                         {
-                            Id = 138,
+                            Id = 117,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.81.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F081",
-                            OutletName = "Board Bazar"
+                            OutletName = "Board Bazar Gazipur"
                         },
                         new
                         {
-                            Id = 139,
+                            Id = 118,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.82.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F082",
-                            OutletName = "Dakshinkhan"
+                            OutletName = "Dokhin Khan"
                         },
                         new
                         {
-                            Id = 140,
+                            Id = 119,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.83.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F083",
-                            OutletName = "Sylhet Golapganj"
+                            OutletName = "Golapganj, Sylhet"
                         },
                         new
                         {
-                            Id = 141,
+                            Id = 120,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.85.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F085",
-                            OutletName = "Uttar kazipara"
+                            OutletName = "Uttar Kazipara"
                         },
                         new
                         {
-                            Id = 142,
+                            Id = 121,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.86.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F086",
@@ -1482,69 +1273,69 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 143,
+                            Id = 122,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.87.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F087",
-                            OutletName = "Savar new market"
+                            OutletName = "Savar New Market"
                         },
                         new
                         {
-                            Id = 144,
+                            Id = 123,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.88.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F088",
-                            OutletName = "Hazigonj, Chandpur"
+                            OutletName = "Haziganj, Chandpur"
                         },
                         new
                         {
-                            Id = 145,
+                            Id = 124,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.89.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F089",
-                            OutletName = "Mohammadia Housing"
+                            OutletName = "Mohammadia Housing Society"
                         },
                         new
                         {
-                            Id = 146,
+                            Id = 125,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.90.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F090",
-                            OutletName = "Shafipur Hiramoti tower"
+                            OutletName = "Shofipur Express"
                         },
                         new
                         {
-                            Id = 147,
+                            Id = 126,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.91.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F091",
-                            OutletName = "Sirajgonj Sarwardi"
+                            OutletName = "Sirajganj Shahid Sarwardi Road"
                         },
                         new
                         {
-                            Id = 148,
+                            Id = 127,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.92.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F092",
-                            OutletName = "Noakhali Maijdi court"
+                            OutletName = "Noakhali Maijdee"
                         },
                         new
                         {
-                            Id = 149,
+                            Id = 128,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.93.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F093",
@@ -1552,19 +1343,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 150,
+                            Id = 129,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.94.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F094",
-                            OutletName = "Mymansingh masterbari"
+                            OutletName = "Mymensing Masterbari"
                         },
                         new
                         {
-                            Id = 151,
+                            Id = 130,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.95.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F095",
@@ -1572,49 +1363,49 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 152,
+                            Id = 131,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.96.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F096",
-                            OutletName = "Tangail main road"
+                            OutletName = "Tangail Main Road"
                         },
                         new
                         {
-                            Id = 153,
+                            Id = 132,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.97.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F097",
-                            OutletName = "Rangpur shymoli"
+                            OutletName = "Rangpur Shaymoli"
                         },
                         new
                         {
-                            Id = 154,
+                            Id = 133,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.98.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F098",
-                            OutletName = "Lalbagh"
+                            OutletName = "Lalbagh Express"
                         },
                         new
                         {
-                            Id = 155,
+                            Id = 134,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.99.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F099",
-                            OutletName = "Manikganj Royal tower"
+                            OutletName = "Manikganj"
                         },
                         new
                         {
-                            Id = 156,
+                            Id = 135,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.100.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F100",
@@ -1622,69 +1413,69 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 157,
+                            Id = 136,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.101.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F101",
-                            OutletName = "Gazipur Bonmala"
+                            OutletName = "Gazipur Bonmala Road"
                         },
                         new
                         {
-                            Id = 158,
+                            Id = 137,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.102.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F102",
-                            OutletName = "Ashuganj Bazar"
+                            OutletName = "Ashuganj Bazar Road"
                         },
                         new
                         {
-                            Id = 159,
+                            Id = 138,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.103.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F103",
-                            OutletName = "Gazipur konabari"
+                            OutletName = "Gazipur Konabari"
                         },
                         new
                         {
-                            Id = 160,
+                            Id = 139,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.104.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F104",
-                            OutletName = "Bhairab Bus stand"
+                            OutletName = "Bhairab Bus Stand"
                         },
                         new
                         {
-                            Id = 161,
+                            Id = 140,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.105.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F105",
-                            OutletName = "Narshingdi Judge court"
+                            OutletName = "Narsingdi Judge Court Road"
                         },
                         new
                         {
-                            Id = 162,
+                            Id = 141,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.107.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F107",
-                            OutletName = "CTG chadgaon housing"
+                            OutletName = "CTG Chandgaon Housing Society"
                         },
                         new
                         {
-                            Id = 163,
+                            Id = 142,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.109.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F109",
@@ -1692,69 +1483,69 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 164,
+                            Id = 143,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.110.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F110",
-                            OutletName = "Gopalganj College road"
+                            OutletName = "Gopalganj College Road"
                         },
                         new
                         {
-                            Id = 165,
+                            Id = 144,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.111.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F111",
-                            OutletName = "New eskaton"
+                            OutletName = "New Eskaton"
                         },
                         new
                         {
-                            Id = 166,
+                            Id = 145,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.112.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F112",
-                            OutletName = "South banasree-2"
+                            OutletName = "South Banasree 2"
                         },
                         new
                         {
-                            Id = 167,
+                            Id = 146,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.113.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F113",
-                            OutletName = "Barishal bogura road"
+                            OutletName = "Barisal Bogura Road"
                         },
                         new
                         {
-                            Id = 168,
+                            Id = 147,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.114.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F114",
-                            OutletName = "Srimangal"
+                            OutletName = "Srimangal  Moulavi Bazar"
                         },
                         new
                         {
-                            Id = 169,
+                            Id = 148,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.115.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F115",
-                            OutletName = "Habiganj Kalibari"
+                            OutletName = "Habiganj Kalibari Road"
                         },
                         new
                         {
-                            Id = 170,
+                            Id = 149,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.116.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F116",
@@ -1762,19 +1553,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 171,
+                            Id = 150,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.118.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F118",
-                            OutletName = "Mirpur-2"
+                            OutletName = "Mirpur 2"
                         },
                         new
                         {
-                            Id = 172,
+                            Id = 151,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.119.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F119",
@@ -1782,129 +1573,129 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 173,
+                            Id = 152,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.120.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F120",
-                            OutletName = "Baipal RMST tower"
+                            OutletName = "Baipal RMST Tower"
                         },
                         new
                         {
-                            Id = 174,
+                            Id = 153,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.121.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F121",
-                            OutletName = "Aftabnagar"
+                            OutletName = "Aftabnagar Express"
                         },
                         new
                         {
-                            Id = 175,
+                            Id = 154,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.122.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F122",
-                            OutletName = "Natun bazar"
+                            OutletName = "Natun Bazar"
                         },
                         new
                         {
-                            Id = 176,
+                            Id = 155,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.123.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F123",
-                            OutletName = "Jashore Rasel chottor"
+                            OutletName = "Jashore Rasel Chottar"
                         },
                         new
                         {
-                            Id = 177,
+                            Id = 156,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.124.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F124",
-                            OutletName = "Shewrapara wasa Rd"
+                            OutletName = "West Shewrapara Wasa Road"
                         },
                         new
                         {
-                            Id = 178,
+                            Id = 157,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.125.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F125",
-                            OutletName = "Thakurgaon kalibari"
+                            OutletName = "Thakurgaon Kalibari"
                         },
                         new
                         {
-                            Id = 179,
+                            Id = 158,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.127.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F127",
-                            OutletName = "Bajitpur kishoregonj"
+                            OutletName = "Bajitpur Kishorgonj"
                         },
                         new
                         {
-                            Id = 180,
+                            Id = 159,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.128.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F128",
-                            OutletName = "Nababganj Bagmara"
+                            OutletName = "Nababgonj Bagmara"
                         },
                         new
                         {
-                            Id = 181,
+                            Id = 160,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.129.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F129",
-                            OutletName = "Daulatpur"
+                            OutletName = "Daulatpur, Khulna"
                         },
                         new
                         {
-                            Id = 182,
+                            Id = 161,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.130.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F130",
-                            OutletName = "West kazipara"
+                            OutletName = "West Kazipara Central Mosque Road"
                         },
                         new
                         {
-                            Id = 183,
+                            Id = 162,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.131.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F131",
-                            OutletName = "Dinajpur Ganstola"
+                            OutletName = "Dinajpur Ganshtola"
                         },
                         new
                         {
-                            Id = 184,
+                            Id = 163,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.15.132.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F132",
-                            OutletName = "konapara Demra"
+                            OutletName = "Konapara Demra"
                         },
                         new
                         {
-                            Id = 185,
+                            Id = 164,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.133.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F133",
@@ -1912,39 +1703,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 186,
+                            Id = 165,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.134.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F134",
-                            OutletName = "Dhaka uddan"
+                            OutletName = "Dhaka Uddan"
                         },
                         new
                         {
-                            Id = 187,
+                            Id = 166,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.15.135.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F135",
-                            OutletName = "Charpara mymansingh"
-                        },
-                        new
-                        {
-                            Id = 188,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.136.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F136",
-                            OutletName = "South sastapur"
+                            OutletName = "South Sastaur"
                         },
                         new
                         {
-                            Id = 189,
+                            Id = 167,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.138.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F138",
@@ -1952,19 +1733,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 190,
+                            Id = 168,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.139.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F139",
-                            OutletName = "Siddhirganj"
+                            OutletName = "Siddirganj"
                         },
                         new
                         {
-                            Id = 191,
+                            Id = 169,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.140.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F140",
@@ -1972,9 +1753,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 192,
+                            Id = 170,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.141.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F141",
@@ -1982,29 +1763,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 193,
+                            Id = 171,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.15.142.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F142",
-                            OutletName = "Uttar khapara Tongi"
+                            OutletName = "Uttar Khapara, Tongi"
                         },
                         new
                         {
-                            Id = 194,
+                            Id = 172,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.143.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F143",
-                            OutletName = "Chatak"
+                            OutletName = "Chhatak, Sylhet"
                         },
                         new
                         {
-                            Id = 195,
+                            Id = 173,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.144.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F144",
@@ -2012,29 +1793,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 196,
+                            Id = 174,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.145.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F145",
-                            OutletName = "kashimpur"
+                            OutletName = "Kashimpur"
                         },
                         new
                         {
-                            Id = 197,
+                            Id = 175,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.146.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F146",
-                            OutletName = "jamgora"
+                            OutletName = "Jamgora"
                         },
                         new
                         {
-                            Id = 198,
+                            Id = 176,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.147.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F147",
@@ -2042,9 +1823,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 199,
+                            Id = 177,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.148.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F148",
@@ -2052,19 +1833,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 200,
+                            Id = 178,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.149.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F149",
-                            OutletName = "Savar polli bidyut"
+                            OutletName = "Savar Palli Bidduth"
                         },
                         new
                         {
-                            Id = 201,
+                            Id = 179,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.150.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F150",
@@ -2072,19 +1853,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 202,
+                            Id = 180,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.15.151.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F151",
-                            OutletName = "Muktarbari road"
+                            OutletName = "Muktarbari Road, Auchpara"
                         },
                         new
                         {
-                            Id = 203,
+                            Id = 181,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.152.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F152",
@@ -2092,68 +1873,59 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 204,
+                            Id = 182,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.15.153.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F153",
-                            OutletName = "Faridganj"
+                            OutletName = "Faridganj Chandpur"
                         },
                         new
                         {
-                            Id = 205,
-                            ISPName = "nan",
-                            IpAddress = "172.15.154.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F154",
-                            OutletName = "Chandpur"
-                        },
-                        new
-                        {
-                            Id = 206,
+                            Id = 183,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.155.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F155",
-                            OutletName = "Tangail mirzapur"
+                            OutletName = "Tangail Mirzapur"
                         },
                         new
                         {
-                            Id = 207,
+                            Id = 184,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.156.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F156",
-                            OutletName = "Narshingdi madhobdi"
+                            OutletName = "Narshingdi Madhobdi Bazar"
                         },
                         new
                         {
-                            Id = 208,
+                            Id = 185,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.157.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F157",
-                            OutletName = "Kishorgonj Katiadi"
+                            OutletName = "Katiadi Kishoreganj"
                         },
                         new
                         {
-                            Id = 209,
+                            Id = 186,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.158.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F158",
-                            OutletName = "Khulna sonadanga"
+                            OutletName = "Khulna Sonadanga"
                         },
                         new
                         {
-                            Id = 210,
+                            Id = 187,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.159.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F159",
@@ -2161,19 +1933,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 211,
+                            Id = 188,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.160.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F160",
-                            OutletName = "Mirpur Ahamednagar"
+                            OutletName = "Mirpur Ahmednagar"
                         },
                         new
                         {
-                            Id = 212,
+                            Id = 189,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.161.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F161",
@@ -2181,29 +1953,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 213,
+                            Id = 190,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.162.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F162",
-                            OutletName = "Uttarkhan Mazar"
+                            OutletName = "Uttarkhan Mazar Chowrasta"
                         },
                         new
                         {
-                            Id = 214,
+                            Id = 191,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.163.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F163",
-                            OutletName = "Mymansingh Trishal"
+                            OutletName = "Mymensingh Trishal"
                         },
                         new
                         {
-                            Id = 215,
+                            Id = 192,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.164.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F164",
@@ -2211,9 +1983,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 216,
+                            Id = 193,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.165.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F165",
@@ -2221,19 +1993,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 217,
+                            Id = 194,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.166.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F166",
-                            OutletName = "Sylhet bishwanath"
+                            OutletName = "Sylhet Bishwanath"
                         },
                         new
                         {
-                            Id = 218,
+                            Id = 195,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.167.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F167",
@@ -2241,9 +2013,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 219,
+                            Id = 196,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.168.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F168",
@@ -2251,29 +2023,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 220,
+                            Id = 197,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.170.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F170",
-                            OutletName = "Sirajdikhan"
+                            OutletName = "Balurchar ,Sirajdikhan"
                         },
                         new
                         {
-                            Id = 221,
+                            Id = 198,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.172.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F172",
-                            OutletName = "Banasree E block"
+                            OutletName = "Banashree E Block"
                         },
                         new
                         {
-                            Id = 222,
+                            Id = 199,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.173.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F173",
@@ -2281,79 +2053,79 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 223,
+                            Id = 200,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.174.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F174",
-                            OutletName = "Kustia bheramara"
+                            OutletName = "Kushtia Bheramara"
                         },
                         new
                         {
-                            Id = 224,
+                            Id = 201,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.175.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F175",
-                            OutletName = "Gazipur chourasta"
+                            OutletName = "Gazipur Chowrasta"
                         },
                         new
                         {
-                            Id = 225,
+                            Id = 202,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.177.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F177",
-                            OutletName = "Kishoregonj Station Rd"
+                            OutletName = "Kishoreganj Station Road"
                         },
                         new
                         {
-                            Id = 226,
+                            Id = 203,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.178.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F178",
-                            OutletName = "Mission road chadpur"
+                            OutletName = "Mission Road, Chandpur"
                         },
                         new
                         {
-                            Id = 227,
+                            Id = 204,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.179.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F179",
-                            OutletName = "Tangail sabalia"
+                            OutletName = "Tangail Sabalia"
                         },
                         new
                         {
-                            Id = 228,
+                            Id = 205,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.180.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F180",
-                            OutletName = "Bosila Mohammadpur"
+                            OutletName = "Mohammadpur Bosila"
                         },
                         new
                         {
-                            Id = 229,
+                            Id = 206,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.181.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F181",
-                            OutletName = "Feni chagalnaiya"
+                            OutletName = "Feni Chhagalnaiya"
                         },
                         new
                         {
-                            Id = 230,
+                            Id = 207,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.182.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F182",
@@ -2361,19 +2133,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 231,
+                            Id = 208,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.184.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F184",
-                            OutletName = "Gazipur Monipur"
+                            OutletName = "Gazipur Monipur Bazar"
                         },
                         new
                         {
-                            Id = 232,
+                            Id = 209,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.15.185.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F185",
@@ -2381,39 +2153,39 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 233,
+                            Id = 210,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.187.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F187",
-                            OutletName = "Narayangonj vulta"
+                            OutletName = "Narayanganj  Bhulta"
                         },
                         new
                         {
-                            Id = 234,
+                            Id = 211,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.188.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F188",
-                            OutletName = "Patuakhali subidhkhali"
+                            OutletName = "Patuakhali  Subidkhali"
                         },
                         new
                         {
-                            Id = 235,
+                            Id = 212,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.189.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F189",
-                            OutletName = "Sunamganj Jagannathpur"
+                            OutletName = "Sunamganj Jagannthpur"
                         },
                         new
                         {
-                            Id = 236,
+                            Id = 213,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.190.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F190",
@@ -2421,9 +2193,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 237,
+                            Id = 214,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.191.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F191",
@@ -2431,38 +2203,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 238,
+                            Id = 215,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.192.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F192",
-                            OutletName = "Pirojpur bhandaria"
+                            OutletName = "Bhandaria"
                         },
                         new
                         {
-                            Id = 239,
+                            Id = 216,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.193.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F193",
-                            OutletName = "CTG raozan"
+                            OutletName = "CTG Raozan"
                         },
                         new
                         {
-                            Id = 240,
-                            ISPName = "nan",
-                            IpAddress = "172.15.194.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F194",
-                            OutletName = "Zinzira"
-                        },
-                        new
-                        {
-                            Id = 241,
+                            Id = 217,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.195.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F195",
@@ -2470,9 +2233,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 242,
+                            Id = 218,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.196.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F196",
@@ -2480,28 +2243,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 243,
+                            Id = 219,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.197.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F197",
-                            OutletName = "Lakhsmipur"
+                            OutletName = "Lakshmipur"
                         },
                         new
                         {
-                            Id = 244,
-                            ISPName = "nan",
-                            IpAddress = "172.15.198.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F198",
-                            OutletName = "Chauddagram"
-                        },
-                        new
-                        {
-                            Id = 245,
+                            Id = 220,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.199.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F199",
@@ -2509,19 +2263,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 246,
+                            Id = 221,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.200.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F200",
-                            OutletName = "Gazipur Bangla bazar"
+                            OutletName = "Gazipur Bangla Bazar"
                         },
                         new
                         {
-                            Id = 247,
+                            Id = 222,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.201.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F201",
@@ -2529,28 +2283,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 248,
-                            ISPName = "nan",
-                            IpAddress = "172.15.202.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F202",
-                            OutletName = "Sanarpara Siddirganj"
-                        },
-                        new
-                        {
-                            Id = 249,
+                            Id = 223,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.203.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F203",
-                            OutletName = "Chapainawabhgonj"
+                            OutletName = "Chapainawbganj"
                         },
                         new
                         {
-                            Id = 250,
+                            Id = 224,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.204.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F204",
@@ -2558,38 +2303,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 251,
+                            Id = 225,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.205.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F205",
-                            OutletName = "Bogura sherpur"
+                            OutletName = "Bogura Sherpur"
                         },
                         new
                         {
-                            Id = 252,
-                            ISPName = "nan",
-                            IpAddress = "172.15.206.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F206",
-                            OutletName = "Tangail karatia"
-                        },
-                        new
-                        {
-                            Id = 253,
+                            Id = 226,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.208.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F208",
-                            OutletName = "Jessore arabpur"
+                            OutletName = "Jessore Arabpur"
                         },
                         new
                         {
-                            Id = 254,
+                            Id = 227,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.209.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F209",
@@ -2597,9 +2333,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 255,
+                            Id = 228,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.210.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F210",
@@ -2607,9 +2343,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 256,
+                            Id = 229,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.211.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F211",
@@ -2617,9 +2353,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 257,
+                            Id = 230,
                             ISPName = "CCL",
-                            ISPPhone = "1841073045.0",
+                            ISPPhone = "1841073045",
                             IpAddress = "172.15.212.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F212",
@@ -2627,9 +2363,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 258,
+                            Id = 231,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.213.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F213",
@@ -2637,9 +2373,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 259,
+                            Id = 232,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.214.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F214",
@@ -2647,9 +2383,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 260,
+                            Id = 233,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.215.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F215",
@@ -2657,9 +2393,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 261,
+                            Id = 234,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.216.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F216",
@@ -2667,9 +2403,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 262,
+                            Id = 235,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.217.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F217",
@@ -2677,9 +2413,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 263,
+                            Id = 236,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.218.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F218",
@@ -2687,9 +2423,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 264,
+                            Id = 237,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.219.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F219",
@@ -2697,19 +2433,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 265,
+                            Id = 238,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.15.220.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F220",
-                            OutletName = "Kashiani Gopalganj"
+                            OutletName = "Gopalganj Kashiani"
                         },
                         new
                         {
-                            Id = 266,
+                            Id = 239,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.221.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F221",
@@ -2717,19 +2453,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 267,
+                            Id = 240,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.222.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F222",
-                            OutletName = "Sharifpur Gazipur(Maleker Bari)"
+                            OutletName = "Sharifpur Gazipur (Maleker Bari)"
                         },
                         new
                         {
-                            Id = 268,
+                            Id = 241,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.15.223.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F223",
@@ -2737,9 +2473,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 269,
+                            Id = 242,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.224.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F224",
@@ -2747,9 +2483,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 270,
+                            Id = 243,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.226.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F226",
@@ -2757,9 +2493,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 271,
+                            Id = 244,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.227.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F227",
@@ -2767,19 +2503,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 272,
+                            Id = 245,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.15.228.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F228",
-                            OutletName = "Dhonia"
-                        },
-                        new
-                        {
-                            Id = 273,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.229.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F229",
@@ -2787,19 +2513,28 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 274,
-                            ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
-                            IpAddress = "172.15.231.5",
+                            Id = 246,
+                            ISPName = "nan",
+                            IpAddress = "172.15.230.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F231",
-                            OutletName = "Shibchar Madaripur"
+                            OutletCode = "F230",
+                            OutletName = "Chunarughat Habiganj"
                         },
                         new
                         {
-                            Id = 275,
+                            Id = 247,
+                            ISPName = "Amber",
+                            ISPPhone = "8001111111",
+                            IpAddress = "172.15.231.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F231",
+                            OutletName = "Sibchar Madaripur"
+                        },
+                        new
+                        {
+                            Id = 248,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.232.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F232",
@@ -2807,9 +2542,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 276,
+                            Id = 249,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.234.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F234",
@@ -2817,9 +2552,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 277,
+                            Id = 250,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.235.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F235",
@@ -2827,9 +2562,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 278,
+                            Id = 251,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.237.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F237",
@@ -2837,9 +2572,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 279,
+                            Id = 252,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.238.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F238",
@@ -2847,9 +2582,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 280,
+                            Id = 253,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.239.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F239",
@@ -2857,9 +2592,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 281,
+                            Id = 254,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.15.240.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F240",
@@ -2867,19 +2602,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 282,
+                            Id = 255,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.15.25.5",
+                            ISPPhone = "1841073044",
+                            IpAddress = "172.15.241.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F241",
                             OutletName = "Bakshiganj Jamalpur"
                         },
                         new
                         {
-                            Id = 283,
+                            Id = 256,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.242.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F242",
@@ -2887,19 +2622,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 284,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.15.244.5",
+                            Id = 257,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.15.243.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F244",
-                            OutletName = "Picture Place Khulna"
+                            OutletCode = "F243",
+                            OutletName = "Mohonganj Netrokona"
                         },
                         new
                         {
-                            Id = 285,
+                            Id = 258,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.245.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F245",
@@ -2907,9 +2642,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 286,
+                            Id = 259,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.246.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F246",
@@ -2917,9 +2652,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 287,
+                            Id = 260,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.247.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F247",
@@ -2927,9 +2662,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 288,
+                            Id = 261,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.249.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F249",
@@ -2937,9 +2672,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 289,
+                            Id = 262,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.250.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F250",
@@ -2947,9 +2682,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 290,
+                            Id = 263,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.252.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F252",
@@ -2957,9 +2692,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 291,
+                            Id = 264,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.253.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F253",
@@ -2967,9 +2702,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 292,
+                            Id = 265,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.254.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F254",
@@ -2977,9 +2712,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 293,
+                            Id = 266,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.15.255.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F255",
@@ -2987,9 +2722,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 294,
+                            Id = 267,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.56.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F256",
@@ -2997,9 +2732,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 295,
+                            Id = 268,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.57.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F257",
@@ -3007,9 +2742,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 296,
+                            Id = 269,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.58.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F258",
@@ -3017,9 +2752,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 297,
+                            Id = 270,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.60.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F260",
@@ -3027,9 +2762,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 298,
+                            Id = 271,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.63.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F263",
@@ -3037,9 +2772,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 299,
+                            Id = 272,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.68.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F268",
@@ -3047,9 +2782,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 300,
+                            Id = 273,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.69.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F269",
@@ -3057,9 +2792,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 301,
+                            Id = 274,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.70.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F270",
@@ -3067,9 +2802,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 302,
+                            Id = 275,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.71.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F271",
@@ -3077,9 +2812,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 303,
+                            Id = 276,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.72.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F272",
@@ -3087,9 +2822,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 304,
+                            Id = 277,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.74.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F274",
@@ -3097,9 +2832,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 305,
+                            Id = 278,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.75.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F275",
@@ -3107,9 +2842,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 306,
+                            Id = 279,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.76.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F276",
@@ -3117,9 +2852,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 307,
+                            Id = 280,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.77.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F277",
@@ -3127,9 +2862,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 308,
+                            Id = 281,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.78.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F278",
@@ -3137,9 +2872,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 309,
+                            Id = 282,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.79.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F279",
@@ -3147,9 +2882,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 310,
+                            Id = 283,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.80.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F280",
@@ -3157,9 +2892,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 311,
+                            Id = 284,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.83.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F283",
@@ -3167,9 +2902,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 312,
+                            Id = 285,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.84.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F284",
@@ -3177,9 +2912,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 313,
+                            Id = 286,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.85.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F285",
@@ -3187,9 +2922,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 314,
+                            Id = 287,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.86.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F286",
@@ -3197,9 +2932,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 315,
+                            Id = 288,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.87.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F287",
@@ -3207,9 +2942,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 316,
+                            Id = 289,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.88.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F288",
@@ -3217,9 +2952,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 317,
+                            Id = 290,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.89.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F289",
@@ -3227,9 +2962,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 318,
+                            Id = 291,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.90.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F290",
@@ -3237,19 +2972,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 319,
+                            Id = 292,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.91.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F291",
-                            OutletName = "Ishwardi Bazar"
+                            OutletName = "Ishwardi Bazar Road"
                         },
                         new
                         {
-                            Id = 320,
+                            Id = 293,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.92.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F292",
@@ -3257,9 +2992,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 321,
+                            Id = 294,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.93.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F293",
@@ -3267,9 +3002,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 322,
+                            Id = 295,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.94.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F294",
@@ -3277,19 +3012,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 323,
+                            Id = 296,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "nan",
+                            ISPPhone = "1841073044",
+                            IpAddress = "172.17.95.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F295",
                             OutletName = "Bonpara Natore"
                         },
                         new
                         {
-                            Id = 324,
+                            Id = 297,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.96.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F296",
@@ -3297,9 +3032,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 325,
+                            Id = 298,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.97.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F297",
@@ -3307,9 +3042,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 326,
+                            Id = 299,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.98.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F298",
@@ -3317,9 +3052,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 327,
+                            Id = 300,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.99.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F299",
@@ -3327,19 +3062,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 328,
+                            Id = 301,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.17.100.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F300",
-                            OutletName = "Zila Sarani Mor Kishoreganj"
-                        },
-                        new
-                        {
-                            Id = 329,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.101.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F301",
@@ -3347,179 +3072,169 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 330,
+                            Id = 302,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.102.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F302",
-                            OutletName = "Panichattor Madaripur"
+                            OutletName = "Panichattar, Madaripur"
                         },
                         new
                         {
-                            Id = 331,
+                            Id = 303,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.102.5",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.17.105.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F305",
-                            OutletName = "Kurpur Netrokona"
+                            OutletName = "Kurpar, Netrokona"
                         },
                         new
                         {
-                            Id = 332,
+                            Id = 304,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.106.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F306",
-                            OutletName = "Gobindoganj Gaibandha"
+                            OutletName = "Gobindaganj, Gaibandha"
                         },
                         new
                         {
-                            Id = 333,
+                            Id = 305,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.107.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F307",
-                            OutletName = "Gouronadi Barishal"
+                            OutletName = "Gournadi Barishal"
                         },
                         new
                         {
-                            Id = 334,
+                            Id = 306,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.108.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F308",
-                            OutletName = "Abu naser Mor Khulna"
+                            OutletName = "Abu Naser Mor, Khulna"
                         },
                         new
                         {
-                            Id = 335,
+                            Id = 307,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.109.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F309",
-                            OutletName = "Hamid Road pabna"
+                            OutletName = "Hamid Road, Pabna"
                         },
                         new
                         {
-                            Id = 336,
+                            Id = 308,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.110.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F310",
-                            OutletName = "Biconmor Rongpur"
+                            OutletName = "Biconmor, Rangpur"
                         },
                         new
                         {
-                            Id = 337,
+                            Id = 309,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.111.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F311",
-                            OutletName = "Shafimiar Bajar Jamalpur"
+                            OutletName = "Shafimiar Bazar, Jamalpur"
                         },
                         new
                         {
-                            Id = 338,
+                            Id = 310,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.112.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F312",
-                            OutletName = "Beltola Jail Road jassore"
+                            OutletName = "Beltola Jail Road, Jessore"
                         },
                         new
                         {
-                            Id = 339,
+                            Id = 311,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.113.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F313",
-                            OutletName = "Nimai kasari bazar"
+                            OutletName = "Nimai Kasari Bazar, Shanarpar"
                         },
                         new
                         {
-                            Id = 340,
+                            Id = 312,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.114.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F314",
-                            OutletName = "Noyapara Habiganj"
+                            OutletName = "Noyapara Bazar, Habiganj"
                         },
                         new
                         {
-                            Id = 341,
+                            Id = 313,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.115.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F315",
-                            OutletName = "Shayestaganj Habiganj"
+                            OutletName = "Shajstaganj, Habiganj"
                         },
                         new
                         {
-                            Id = 342,
+                            Id = 314,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.116.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F316",
-                            OutletName = "Ramu Coxs bazar"
+                            OutletName = "Ramu"
                         },
                         new
                         {
-                            Id = 343,
+                            Id = 315,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.117.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F317",
-                            OutletName = "Mathbaria"
+                            OutletName = "Mathbaria Pirojpur"
                         },
                         new
                         {
-                            Id = 344,
+                            Id = 316,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.118.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F318",
-                            OutletName = "Atibazar Keraniganj"
+                            OutletName = "Atibazar, Keraniganj"
                         },
                         new
                         {
-                            Id = 345,
+                            Id = 317,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.119.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F319",
-                            OutletName = "Gandaa Savar Outlet"
+                            OutletName = "Ganda Savar"
                         },
                         new
                         {
-                            Id = 346,
-                            ISPName = "ADN",
-                            ISPPhone = "16615.0",
-                            IpAddress = "172.17.120.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F320",
-                            OutletName = "Keshorhat Rajshahi"
-                        },
-                        new
-                        {
-                            Id = 347,
+                            Id = 318,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.121.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F321",
@@ -3527,9 +3242,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 348,
+                            Id = 319,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.122.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F322",
@@ -3537,9 +3252,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 349,
+                            Id = 320,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.123.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F323",
@@ -3547,39 +3262,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 350,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.124.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F324",
-                            OutletName = "Bhola Sadar"
-                        },
-                        new
-                        {
-                            Id = 351,
+                            Id = 321,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.125.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F325",
-                            OutletName = "Eastern Housing"
+                            OutletName = "F-Block ,Eastern Housing"
                         },
                         new
                         {
-                            Id = 352,
+                            Id = 322,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.126.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F326",
-                            OutletName = "Nabiganj Hobiganj"
+                            OutletName = "Nabiganj Bazar ,Habiganj"
                         },
                         new
                         {
-                            Id = 353,
+                            Id = 323,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.127.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F327",
@@ -3587,9 +3292,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 354,
+                            Id = 324,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.128.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F328",
@@ -3597,9 +3302,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 355,
+                            Id = 325,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.129.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F329",
@@ -3607,9 +3312,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 356,
+                            Id = 326,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.130.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F330",
@@ -3617,9 +3322,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 357,
+                            Id = 327,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.131.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F331",
@@ -3627,9 +3332,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 358,
+                            Id = 328,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.132.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F332",
@@ -3637,49 +3342,39 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 359,
+                            Id = 329,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.133.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F333",
-                            OutletName = "Naohata Rajshahi"
-                        },
-                        new
-                        {
-                            Id = 360,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.134.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F334",
-                            OutletName = "birgonj Dinajpur"
+                            OutletName = "Birganjpur Dinajpur"
                         },
                         new
                         {
-                            Id = 361,
+                            Id = 330,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.135.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F335",
-                            OutletName = "M A Jalil Sarak ,Barishal"
+                            OutletName = "M A Jalil Sarak, Barishal"
                         },
                         new
                         {
-                            Id = 362,
+                            Id = 331,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.136.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F336",
-                            OutletName = "DC Bridge  Madaripur"
+                            OutletName = "DC Bridge  Madaripur"
                         },
                         new
                         {
-                            Id = 363,
+                            Id = 332,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.137.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F337",
@@ -3687,29 +3382,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 364,
+                            Id = 333,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.138.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F338",
-                            OutletName = "D B Road Gaibanda"
+                            OutletName = "DB Road Gaibandha"
                         },
                         new
                         {
-                            Id = 365,
+                            Id = 334,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.17.139.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F339",
-                            OutletName = "Shetabganj Dinajpur"
+                            OutletName = "Setabganj Dinajpur"
                         },
                         new
                         {
-                            Id = 366,
+                            Id = 335,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.140.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F340",
@@ -3717,29 +3412,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 367,
+                            Id = 336,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.15.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F341",
-                            OutletName = "Baunia"
-                        },
-                        new
-                        {
-                            Id = 368,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.142.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F342",
-                            OutletName = "Cant Mor Mymenisingh"
+                            OutletName = "Cantonment Mor Mymenisingh"
                         },
                         new
                         {
-                            Id = 369,
+                            Id = 337,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.144.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F344",
@@ -3747,19 +3432,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 370,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.145.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F345",
-                            OutletName = "Atharobari Mymensingh"
-                        },
-                        new
-                        {
-                            Id = 371,
+                            Id = 338,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.146.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F346",
@@ -3767,29 +3442,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 372,
+                            Id = 339,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.147.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F347",
-                            OutletName = "Shibpur Narshingdi"
+                            OutletName = "Shibpur Narsingdi"
                         },
                         new
                         {
-                            Id = 373,
+                            Id = 340,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.148.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F348",
-                            OutletName = "Court Bazar Ukhia"
+                            OutletName = "Court Bazar Ukhiya"
                         },
                         new
                         {
-                            Id = 374,
+                            Id = 341,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.149.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F349",
@@ -3797,29 +3472,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 375,
+                            Id = 342,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.150.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F350",
-                            OutletName = "Bhabaniganj Bagmara Raj"
+                            OutletName = "Bhabaniganj Rajshahi"
                         },
                         new
                         {
-                            Id = 376,
+                            Id = 343,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.151.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F351",
-                            OutletName = "Jafrabad"
+                            OutletName = "Jafrabad Mohammadpur"
                         },
                         new
                         {
-                            Id = 377,
+                            Id = 344,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.152.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F352",
@@ -3827,99 +3502,69 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 378,
+                            Id = 345,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.154.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F354",
-                            OutletName = "Bhedergoanj Shariatpur"
+                            OutletName = "Bhederganj  Shariatpur"
                         },
                         new
                         {
-                            Id = 379,
+                            Id = 346,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.155.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F355",
-                            OutletName = "Natullabad"
+                            OutletName = "Notullabad Barishal"
                         },
                         new
                         {
-                            Id = 380,
+                            Id = 347,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.156.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F356",
-                            OutletName = "Chowgacha Jessore"
+                            OutletName = "Chowgacha Jashore"
                         },
                         new
                         {
-                            Id = 381,
+                            Id = 348,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.157.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F357",
-                            OutletName = "Bagha Rajshahi"
-                        },
-                        new
-                        {
-                            Id = 382,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.158.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F358",
-                            OutletName = "Gobindapur Bazar S.Akhra"
+                            OutletName = "Gobindapur Bazar South Sonir Akhara"
                         },
                         new
                         {
-                            Id = 383,
+                            Id = 349,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.159.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F359",
-                            OutletName = "Pairachattar Jhenadah"
+                            OutletName = "Pairachattar Jhenaidha"
                         },
                         new
                         {
-                            Id = 384,
+                            Id = 350,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.161.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F361",
-                            OutletName = "Kuliarchar Kishoreganj"
+                            OutletName = "Kuliarchar Bazar Kishoreganj"
                         },
                         new
                         {
-                            Id = 385,
-                            ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
-                            IpAddress = "172.17.162.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F362",
-                            OutletName = "Shah Shuja Road N.ganj"
-                        },
-                        new
-                        {
-                            Id = 386,
+                            Id = 351,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
-                            IpAddress = "172.17.163.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F363",
-                            OutletName = "Daiamoi Mor Jamalpur"
-                        },
-                        new
-                        {
-                            Id = 387,
-                            ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.164.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F364",
@@ -3927,9 +3572,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 388,
+                            Id = 352,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.165.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F365",
@@ -3937,59 +3582,59 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 389,
+                            Id = 353,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.166.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F366",
-                            OutletName = "Chitalmari Bagerhat"
+                            OutletName = "Chitolmari Bagerhat"
                         },
                         new
                         {
-                            Id = 390,
+                            Id = 354,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.167.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F367",
-                            OutletName = "Charfasson Bhola"
+                            OutletName = "Charfasson Bhola"
                         },
                         new
                         {
-                            Id = 391,
+                            Id = 355,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.168.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F368",
-                            OutletName = "Garib Shah Sarak Jashore"
+                            OutletName = "Garib Shah Sarak Jashore"
                         },
                         new
                         {
-                            Id = 392,
+                            Id = 356,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.169.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F369",
-                            OutletName = "Nasirabad 2nd gate CTG"
+                            OutletName = "Nasirabad 2nd Gate"
                         },
                         new
                         {
-                            Id = 393,
+                            Id = 357,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.170.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F370",
-                            OutletName = "Monipur Mirpur"
+                            OutletName = "Monipur Mirpur"
                         },
                         new
                         {
-                            Id = 394,
+                            Id = 358,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.171.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F371",
@@ -3997,9 +3642,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 395,
+                            Id = 359,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.172.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F372",
@@ -4007,9 +3652,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 396,
+                            Id = 360,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.173.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F373",
@@ -4017,9 +3662,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 397,
+                            Id = 361,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.174.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F374",
@@ -4027,9 +3672,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 398,
+                            Id = 362,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.175.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F375",
@@ -4037,9 +3682,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 399,
+                            Id = 363,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.176.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F376",
@@ -4047,59 +3692,49 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 400,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.17.177.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F377",
-                            OutletName = "Taraboniar Chara Coxsbazar"
-                        },
-                        new
-                        {
-                            Id = 401,
+                            Id = 364,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.178.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F378",
-                            OutletName = "Kazibari Gazipur"
+                            OutletName = "Kazibari Road Tongi"
                         },
                         new
                         {
-                            Id = 402,
+                            Id = 365,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.179.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F379",
-                            OutletName = "Dumki Patuakhal"
+                            OutletName = "Dumki Patuakhali"
                         },
                         new
                         {
-                            Id = 403,
+                            Id = 366,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.180.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F380",
-                            OutletName = "East Hazipara Bou Bazar"
+                            OutletName = "East Hazipara"
                         },
                         new
                         {
-                            Id = 404,
+                            Id = 367,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.181.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F381",
-                            OutletName = "Nilphamary Sadar"
+                            OutletName = "Hazi Mahshin Ali Road Nilphamari"
                         },
                         new
                         {
-                            Id = 405,
+                            Id = 368,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.182.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F382",
@@ -4107,9 +3742,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 406,
+                            Id = 369,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.183.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F383",
@@ -4117,59 +3752,59 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 407,
+                            Id = 370,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.184.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F384",
-                            OutletName = "Balashur Bagghakul Sreenagar"
+                            OutletName = "Balashur Bhaggokul"
                         },
                         new
                         {
-                            Id = 408,
+                            Id = 371,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.185.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F385",
-                            OutletName = "Paragram Nawabgonj"
+                            OutletName = "Paragram Nawabganj"
                         },
                         new
                         {
-                            Id = 409,
+                            Id = 372,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.186.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F386",
-                            OutletName = "Bangalipur Sayedpur"
+                            OutletName = "Bangalipur Mor Saidpur"
                         },
                         new
                         {
-                            Id = 410,
+                            Id = 373,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.188.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F388",
-                            OutletName = "Siddik Road Gazipur"
+                            OutletName = "Shaheed Siddik Road, Gazipur"
                         },
                         new
                         {
-                            Id = 411,
+                            Id = 374,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.189.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F389",
-                            OutletName = "Banashree B Block"
+                            OutletName = "B-Block South Banasree"
                         },
                         new
                         {
-                            Id = 412,
+                            Id = 375,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.190.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F390",
@@ -4177,29 +3812,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 413,
+                            Id = 376,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.191.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F391",
-                            OutletName = "Nobodoy Housing Md.pur"
+                            OutletName = "Nobodoy Housing"
                         },
                         new
                         {
-                            Id = 414,
+                            Id = 377,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.192.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F392",
-                            OutletName = "Jawarshara"
+                            OutletName = "Joar Shahara"
                         },
                         new
                         {
-                            Id = 415,
+                            Id = 378,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.193.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F393",
@@ -4207,49 +3842,49 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 416,
+                            Id = 379,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.194.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F394",
-                            OutletName = "Akbarshah  CTG"
+                            OutletName = "Akbarshah CTG"
                         },
                         new
                         {
-                            Id = 417,
+                            Id = 380,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.195.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F395",
-                            OutletName = "Meherpur Sadar"
+                            OutletName = "Meherpur"
                         },
                         new
                         {
-                            Id = 418,
+                            Id = 381,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.196.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F396",
-                            OutletName = "Jirani- 2 Savar"
+                            OutletName = "Zirani-2 Bazar Road"
                         },
                         new
                         {
-                            Id = 419,
+                            Id = 382,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.197.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F397",
-                            OutletName = "Sipahibagh"
+                            OutletName = "Shipahibagh"
                         },
                         new
                         {
-                            Id = 420,
+                            Id = 383,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.198.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F398",
@@ -4257,19 +3892,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 421,
+                            Id = 384,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.199.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F399",
-                            OutletName = "Chandra Polli Biddut"
+                            OutletName = "Chandra Polli Biddhuth"
                         },
                         new
                         {
-                            Id = 422,
+                            Id = 385,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.200.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F400",
@@ -4277,19 +3912,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 423,
+                            Id = 386,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.201.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F401",
-                            OutletName = "Waspur Bosila"
+                            OutletName = "Washpur Keraniganj"
                         },
                         new
                         {
-                            Id = 424,
+                            Id = 387,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.202.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F402",
@@ -4297,49 +3932,39 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 425,
+                            Id = 388,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.203.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F403",
-                            OutletName = "Bolivadro Savar"
+                            OutletName = "Bolivodro Bazar Ashulia"
                         },
                         new
                         {
-                            Id = 426,
+                            Id = 389,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.205.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F405",
-                            OutletName = "Shilabristi Market, Kaliakoir"
+                            OutletName = "Old Bus Stand Kaliakair"
                         },
                         new
                         {
-                            Id = 427,
+                            Id = 390,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.206.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F406",
-                            OutletName = "Kataikhana, Kustia"
+                            OutletName = "Kataikhana Kushtia"
                         },
                         new
                         {
-                            Id = 428,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.17.207.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F407",
-                            OutletName = "Katakhali Rajshahi"
-                        },
-                        new
-                        {
-                            Id = 429,
+                            Id = 391,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.208.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F408",
@@ -4347,9 +3972,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 430,
+                            Id = 392,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.209.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F409",
@@ -4357,29 +3982,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 431,
+                            Id = 393,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.210.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F410",
-                            OutletName = "Sreepurbazar, Gazipur"
+                            OutletName = "Sreepur Bazar Gazipur"
                         },
                         new
                         {
-                            Id = 432,
+                            Id = 394,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.211.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F411",
-                            OutletName = "Station Rd Sylhet"
+                            OutletName = "Station Road Sylhet"
                         },
                         new
                         {
-                            Id = 433,
+                            Id = 395,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.212.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F412",
@@ -4387,9 +4012,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 434,
+                            Id = 396,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.213.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F413",
@@ -4397,59 +4022,59 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 435,
+                            Id = 397,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.214.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F414",
-                            OutletName = "Saturaia Manikganj"
+                            OutletName = "Saturia Manikganj"
                         },
                         new
                         {
-                            Id = 436,
+                            Id = 398,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.215.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F415",
-                            OutletName = "Pansha Rajbari"
+                            OutletName = "Pangsha Rajbari"
                         },
                         new
                         {
-                            Id = 437,
+                            Id = 399,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.216.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F416",
-                            OutletName = "Sofiuddin school Rd,Auchpara Tongi"
+                            OutletName = "Shofiuddin School Road Tongi"
                         },
                         new
                         {
-                            Id = 438,
+                            Id = 400,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.217.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F417",
-                            OutletName = "Amzad Ali School Rd Tongi"
+                            OutletName = "Amzad Ali Girls School Road Tongi"
                         },
                         new
                         {
-                            Id = 439,
+                            Id = 401,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.218.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F418",
-                            OutletName = "Borolekha Molovibazar"
+                            OutletName = "Barelekha Moulvibazar"
                         },
                         new
                         {
-                            Id = 440,
+                            Id = 402,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.219.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F419",
@@ -4457,9 +4082,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 441,
+                            Id = 403,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.220.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F420",
@@ -4467,9 +4092,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 442,
+                            Id = 404,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.221.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F421",
@@ -4477,9 +4102,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 443,
+                            Id = 405,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.222.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F422",
@@ -4487,99 +4112,99 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 444,
+                            Id = 406,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.223.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F423",
-                            OutletName = "Malibagh railgate"
+                            OutletName = "Malibagh Railgate"
                         },
                         new
                         {
-                            Id = 445,
+                            Id = 407,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.224.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F424",
-                            OutletName = "Purbachal Road Uttar road"
+                            OutletName = "Purbachal Road ,Badda"
                         },
                         new
                         {
-                            Id = 446,
+                            Id = 408,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.225.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F425",
-                            OutletName = "Ranisangkor Thakurgaon"
+                            OutletName = "Ranisankail Thakurgaon"
                         },
                         new
                         {
-                            Id = 447,
+                            Id = 409,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.226.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F426",
-                            OutletName = "South Banasree J block"
+                            OutletName = "J-Block South Banasree"
                         },
                         new
                         {
-                            Id = 448,
+                            Id = 410,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.227.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F427",
-                            OutletName = "Basherpool Demra"
+                            OutletName = "Basher Pool Demra"
                         },
                         new
                         {
-                            Id = 449,
+                            Id = 411,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.228.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F428",
-                            OutletName = "Puran Chandgaon"
+                            OutletName = "Old Chandgaon CTG"
                         },
                         new
                         {
-                            Id = 450,
+                            Id = 412,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.229.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F429",
-                            OutletName = "Bhola Sadar"
+                            OutletName = "Sadar Road Bhola"
                         },
                         new
                         {
-                            Id = 451,
+                            Id = 413,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.230.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F430",
-                            OutletName = "Lalmohon Bhola"
+                            OutletName = "Lalmohan Bhola"
                         },
                         new
                         {
-                            Id = 452,
+                            Id = 414,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.231.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F431",
-                            OutletName = "Morolganj Bagerhat"
+                            OutletName = "Morrelganj Bagerhat"
                         },
                         new
                         {
-                            Id = 453,
+                            Id = 415,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.232.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F432",
@@ -4587,9 +4212,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 454,
+                            Id = 416,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.233.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F433",
@@ -4597,9 +4222,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 455,
+                            Id = 417,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.234.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F434",
@@ -4607,9 +4232,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 456,
+                            Id = 418,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.235.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F435",
@@ -4617,49 +4242,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 457,
+                            Id = 419,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.236.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F436",
-                            OutletName = "Islampur, Jamalpur"
+                            OutletName = "Islampur Jamalpur"
                         },
                         new
                         {
-                            Id = 458,
+                            Id = 420,
                             ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
-                            IpAddress = "172.17.237.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F437",
-                            OutletName = "Joina Bazar Gazipur"
-                        },
-                        new
-                        {
-                            Id = 459,
-                            ISPName = "CCL",
-                            ISPPhone = "1841073044.0",
+                            ISPPhone = "1841073044",
                             IpAddress = "172.17.238.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F438",
-                            OutletName = "Vashantek Dhaka"
+                            OutletName = "Poschim Bhasantek"
                         },
                         new
                         {
-                            Id = 460,
-                            ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
-                            IpAddress = "172.17.239.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F439",
-                            OutletName = "Potia Chattagram"
-                        },
-                        new
-                        {
-                            Id = 461,
+                            Id = 421,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.240.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F440",
@@ -4667,19 +4272,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 462,
+                            Id = 422,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.241.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F441",
-                            OutletName = "Kolpolok CTG[Amber]"
+                            OutletName = "Kolpolok CTG"
                         },
                         new
                         {
-                            Id = 463,
+                            Id = 423,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.242.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F442",
@@ -4687,19 +4292,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 464,
+                            Id = 424,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.243.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F443",
-                            OutletName = "IUT Board Bazar Gazipur"
+                            OutletName = "IUT Gate Gazipur"
                         },
                         new
                         {
-                            Id = 465,
+                            Id = 425,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.244.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F444",
@@ -4707,19 +4312,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 466,
+                            Id = 426,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.245.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F445",
-                            OutletName = "Lohagora Paduar Bazar"
+                            OutletName = "Padua CTG"
                         },
                         new
                         {
-                            Id = 467,
+                            Id = 427,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.246.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F447",
@@ -4727,9 +4332,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 468,
+                            Id = 428,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.17.248.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F448",
@@ -4737,9 +4342,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 469,
+                            Id = 429,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.250.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F450",
@@ -4747,19 +4352,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 470,
+                            Id = 430,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.251.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F451",
-                            OutletName = "Akhrabazar Kisharganj"
+                            OutletName = "Akhra Bazar Kishoreganj"
                         },
                         new
                         {
-                            Id = 471,
+                            Id = 431,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.17.252.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F452",
@@ -4767,29 +4372,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 472,
+                            Id = 432,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.253.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F453",
-                            OutletName = "Momenbagh Demra Dhaka"
+                            OutletName = "Momenbagh Jatrabari"
                         },
                         new
                         {
-                            Id = 473,
+                            Id = 433,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.17.254.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F454",
-                            OutletName = "Gazipura Bus Stnd Tongi 27"
+                            OutletName = "Gazipura Bus Stand"
                         },
                         new
                         {
-                            Id = 474,
+                            Id = 434,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.17.255.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F455",
@@ -4797,89 +4402,89 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 475,
+                            Id = 435,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.19.56.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F456",
-                            OutletName = "Court More, Shariatpur"
+                            OutletName = "Court Mor Shariatpur"
                         },
                         new
                         {
-                            Id = 476,
+                            Id = 436,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.19.57.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F457",
-                            OutletName = "kumarkhali kushtia"
+                            OutletName = "Kumarkhali Kushtia"
                         },
                         new
                         {
-                            Id = 477,
+                            Id = 437,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.19.58.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F458",
-                            OutletName = "Moynamoti, Cumilla"
+                            OutletName = "Mainamati Cumilla"
                         },
                         new
                         {
-                            Id = 478,
+                            Id = 438,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.19.59.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F459",
-                            OutletName = "Mugdha Bazar"
+                            OutletName = "North Mugdapara"
                         },
                         new
                         {
-                            Id = 479,
+                            Id = 439,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.19.60.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F460",
-                            OutletName = "Noorer Chala Vatara"
+                            OutletName = "Nurerchala"
                         },
                         new
                         {
-                            Id = 480,
+                            Id = 440,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.61.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F461",
-                            OutletName = "Shuihari Chowrangi Dinajpur"
+                            OutletName = "Shuihari Dinajpur"
                         },
                         new
                         {
-                            Id = 481,
+                            Id = 441,
                             ISPName = "CCL",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.62.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F462",
-                            OutletName = "Dhamari Dhaka[Circle]"
+                            OutletName = "Dhamrai Bazar"
                         },
                         new
                         {
-                            Id = 482,
+                            Id = 442,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.19.63.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F463",
-                            OutletName = "Bhuyanbari Mor Madaripur"
+                            OutletName = "Bhuiyan Bari Mor Madaripur"
                         },
                         new
                         {
-                            Id = 483,
+                            Id = 443,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.19.64.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F464",
@@ -4887,29 +4492,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 484,
+                            Id = 444,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.65.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F465",
-                            OutletName = "Milk Vita, Mirpur 11"
+                            OutletName = "Milk Vita Mor Mirpur-7"
                         },
                         new
                         {
-                            Id = 485,
+                            Id = 445,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.19.66.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F466",
-                            OutletName = "mohajon patti, Bhola"
+                            OutletName = "Mahajan Patti Bhola"
                         },
                         new
                         {
-                            Id = 486,
+                            Id = 446,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.19.67.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F467",
@@ -4917,49 +4522,49 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 487,
+                            Id = 447,
                             ISPName = "ADN",
-                            ISPPhone = "16615.0",
+                            ISPPhone = "16615",
                             IpAddress = "172.19.68.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F468",
-                            OutletName = "Tushvhandar Lalmonirhat"
+                            OutletName = "Tusbhander Lalmonirhat"
                         },
                         new
                         {
-                            Id = 488,
+                            Id = 448,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.19.69.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F469",
-                            OutletName = "S A Tower, Gazirchot, Ashulia"
+                            OutletName = "Sher Ali Market Gazichat"
                         },
                         new
                         {
-                            Id = 489,
+                            Id = 449,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.19.71.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F471",
-                            OutletName = "Lalmai Cumilla"
+                            OutletName = "Buschi Bazar Lalmai  Cumilla"
                         },
                         new
                         {
-                            Id = 490,
+                            Id = 450,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.72.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F472",
-                            OutletName = "Niribili Nobinagar"
+                            OutletName = "Niribil Nabinagar"
                         },
                         new
                         {
-                            Id = 491,
+                            Id = 451,
                             ISPName = "Amber",
-                            ISPPhone = "8001111111.0",
+                            ISPPhone = "8001111111",
                             IpAddress = "172.19.73.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F473",
@@ -4967,9 +4572,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 492,
+                            Id = 452,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.19.74.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F474",
@@ -4977,29 +4582,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 493,
+                            Id = 453,
                             ISPName = "Drick",
-                            ISPPhone = "1755500066.0",
+                            ISPPhone = "1755500066",
                             IpAddress = "172.19.75.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F475",
-                            OutletName = "Kulaura Moulvibazar"
+                            OutletName = "Kulaura Moulavibazar"
                         },
                         new
                         {
-                            Id = 494,
+                            Id = 454,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.76.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F476",
-                            OutletName = "Megula Bazar, Dohar"
+                            OutletName = "Meghula Bazar Dohar"
                         },
                         new
                         {
-                            Id = 495,
+                            Id = 455,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.77.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F477",
@@ -5007,19 +4612,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 496,
+                            Id = 456,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.78.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F478",
-                            OutletName = "Baroipara, Savar Ashulia"
+                            OutletName = "Baroipara Ashulia"
                         },
                         new
                         {
-                            Id = 497,
+                            Id = 457,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.79.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F479",
@@ -5027,29 +4632,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 498,
+                            Id = 458,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.80.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F480",
-                            OutletName = "Doulothkhan Bhola"
+                            OutletName = "Daulatkhan Bhola"
                         },
                         new
                         {
-                            Id = 499,
+                            Id = 459,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.81.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F481",
-                            OutletName = "Uttara-12"
+                            OutletName = "Sector 12 , Road - 3, Uttara"
                         },
                         new
                         {
-                            Id = 500,
+                            Id = 460,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.82.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F482",
@@ -5057,49 +4662,49 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 501,
+                            Id = 461,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.83.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F483",
-                            OutletName = "Kutubkahli Jatrabari"
+                            OutletName = "Dakshin Kutubkahli Jatrabari"
                         },
                         new
                         {
-                            Id = 502,
+                            Id = 462,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.84.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F484",
-                            OutletName = "Jurain"
+                            OutletName = "Commissioner Road Jurain"
                         },
                         new
                         {
-                            Id = 503,
+                            Id = 463,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.85.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F485",
-                            OutletName = "Chad uddan Mohammadpur"
+                            OutletName = "Chand Udyan Mohammadpur"
                         },
                         new
                         {
-                            Id = 504,
+                            Id = 464,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.86.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F486",
-                            OutletName = "Panirkal Halishahar Ctg"
+                            OutletName = "CTG Boubazar Panirkall"
                         },
                         new
                         {
-                            Id = 505,
+                            Id = 465,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.19.87.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F487",
@@ -5107,19 +4712,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 506,
+                            Id = 466,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.88.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F488",
-                            OutletName = "Imandpur Savar"
+                            OutletName = "Imandipur Savar"
                         },
                         new
                         {
-                            Id = 507,
+                            Id = 467,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.19.89.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F489",
@@ -5127,99 +4732,99 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 508,
+                            Id = 468,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.90.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F490",
-                            OutletName = "Chakraborty Tek Gazipur"
+                            OutletName = "Chakraborty Tek ,Gazipur"
                         },
                         new
                         {
-                            Id = 509,
+                            Id = 469,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.91.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F491",
-                            OutletName = "Motlab Chandpur"
+                            OutletName = "Matlab Chandpur"
                         },
                         new
                         {
-                            Id = 510,
+                            Id = 470,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.92.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F492",
-                            OutletName = "Cheragali Gazipur"
+                            OutletName = "Cheragali, Gazipur"
                         },
                         new
                         {
-                            Id = 511,
+                            Id = 471,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.93.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F493",
-                            OutletName = "Taherpur Rajshahi"
-                        },
-                        new
-                        {
-                            Id = 512,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.94.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F494",
-                            OutletName = "Paker Matha Rangpur"
+                            OutletName = "Pakhar Matha Rangpur"
                         },
                         new
                         {
-                            Id = 513,
+                            Id = 472,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.95.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F495",
-                            OutletName = "Gunagari Bazar Chittagong"
+                            OutletName = "CTG Gunagari"
                         },
                         new
                         {
-                            Id = 514,
+                            Id = 473,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.96.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F496",
-                            OutletName = "Kanaighat Sylhet"
+                            OutletName = "Kanaigaht Sylhet"
                         },
                         new
                         {
-                            Id = 515,
+                            Id = 474,
                             ISPName = "Agni",
-                            ISPPhone = "1615002223.0",
+                            ISPPhone = "1615002223",
                             IpAddress = "172.19.97.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F497",
-                            OutletName = "South Badda Dhaka"
+                            OutletName = "South Badda Bazar"
                         },
                         new
                         {
-                            Id = 516,
+                            Id = 475,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.98.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F498",
-                            OutletName = "Sonagazi Feni"
+                            OutletName = "Sonagazi"
                         },
                         new
                         {
-                            Id = 517,
+                            Id = 476,
+                            ISPName = "KS",
+                            ISPPhone = "1733347591",
+                            IpAddress = "172.19.98.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F498",
+                            OutletName = "Sonagazi"
+                        },
+                        new
+                        {
+                            Id = 477,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.99.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F499",
@@ -5227,9 +4832,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 518,
+                            Id = 478,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.100.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F500",
@@ -5237,19 +4842,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 519,
-                            ISPName = "Circle",
-                            ISPPhone = "1615002223.0",
-                            IpAddress = "172.19.101.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F501",
-                            OutletName = "Dhupkhola Bazar"
-                        },
-                        new
-                        {
-                            Id = 520,
+                            Id = 479,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.102.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F502",
@@ -5257,9 +4852,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 521,
+                            Id = 480,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.103.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F503",
@@ -5267,9 +4862,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 522,
+                            Id = 481,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.104.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F504",
@@ -5277,9 +4872,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 523,
+                            Id = 482,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.105.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F505",
@@ -5287,9 +4882,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 524,
+                            Id = 483,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.106.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F506",
@@ -5297,19 +4892,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 525,
+                            Id = 484,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.107.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F507",
-                            OutletName = "Cumilla Court Bari"
+                            OutletName = "Cumilla Courtbari"
                         },
                         new
                         {
-                            Id = 526,
+                            Id = 485,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.108.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F508",
@@ -5317,9 +4912,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 527,
+                            Id = 486,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.109.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F509",
@@ -5327,29 +4922,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 528,
+                            Id = 487,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.110.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F510",
-                            OutletName = "Nalta Kaliganj Satkhira"
+                            OutletName = "Nolta Bazar Satkhira"
                         },
                         new
                         {
-                            Id = 529,
+                            Id = 488,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.111.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F511",
-                            OutletName = "Alauddin Road Nazirabazar"
+                            OutletName = "Alauddin Road  Nazirabazar"
                         },
                         new
                         {
-                            Id = 530,
+                            Id = 489,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.112.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F512",
@@ -5357,9 +4952,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 531,
+                            Id = 490,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.113.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F513",
@@ -5367,9 +4962,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 532,
+                            Id = 491,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.114.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F514",
@@ -5377,29 +4972,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 533,
+                            Id = 492,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.115.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F515",
-                            OutletName = "Chandrima Town"
+                            OutletName = "Chandrima Model Town"
                         },
                         new
                         {
-                            Id = 534,
+                            Id = 493,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.116.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F516",
-                            OutletName = "Kulaura Moulvibazar"
+                            OutletName = "nan"
                         },
                         new
                         {
-                            Id = 535,
+                            Id = 494,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.117.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F517",
@@ -5407,9 +5002,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 536,
+                            Id = 495,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.118.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F518",
@@ -5417,79 +5012,79 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 537,
+                            Id = 496,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.119.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F519",
-                            OutletName = "Poduar Bazar Cumilla"
+                            OutletName = "Paduar Bazar Cumilla"
                         },
                         new
                         {
-                            Id = 538,
+                            Id = 497,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.120.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F520",
-                            OutletName = "Rajapur Bazar Jhalokathi"
+                            OutletName = "Rajapur Jhalakathi"
                         },
                         new
                         {
-                            Id = 539,
+                            Id = 498,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.121.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F521",
-                            OutletName = "Griddakalindia Faridganj Chandpur"
+                            OutletName = "Gridakalinadia  Bazar ,Chandpur"
                         },
                         new
                         {
-                            Id = 540,
+                            Id = 499,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.122.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F522",
-                            OutletName = "Hatimmara Bazar Kashimpur Gazipur"
+                            OutletName = "Hatimara Bazar  Gazipur"
                         },
                         new
                         {
-                            Id = 541,
+                            Id = 500,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.123.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F523",
-                            OutletName = "Shopno Nagar Abashik Pallabi"
+                            OutletName = "Shopnonagar Pallabi"
                         },
                         new
                         {
-                            Id = 542,
+                            Id = 501,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.124.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F524",
-                            OutletName = "Box Culvert Road Panthapath Dhaka"
+                            OutletName = "Box Culvert Road Panthapath"
                         },
                         new
                         {
-                            Id = 543,
+                            Id = 502,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.125.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F525",
-                            OutletName = "Bisic Bridge, Gopalganj"
+                            OutletName = "Bangabandhu Road Gopalganj"
                         },
                         new
                         {
-                            Id = 544,
+                            Id = 503,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.126.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F526",
@@ -5497,79 +5092,79 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 545,
+                            Id = 504,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.127.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F527",
-                            OutletName = "Paurashava Road Patuakhali"
+                            OutletName = "Pourosova Mor Patuakhali"
                         },
                         new
                         {
-                            Id = 546,
+                            Id = 505,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.128.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F528",
-                            OutletName = "Baniarchang Habiganj"
+                            OutletName = "Baniachong Habiganj"
                         },
                         new
                         {
-                            Id = 547,
+                            Id = 506,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.130.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F530",
-                            OutletName = "Rangamati Outlet"
+                            OutletName = "Banorupa Bazar Rangamati"
                         },
                         new
                         {
-                            Id = 548,
+                            Id = 507,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.131.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F531",
-                            OutletName = "Sunamgonj Trafic point"
+                            OutletName = "Sunamganj"
                         },
                         new
                         {
-                            Id = 549,
+                            Id = 508,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.132.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F532",
-                            OutletName = "Janata Housing Mirpur 1"
+                            OutletName = "Janata Housing Mor Mirpur"
                         },
                         new
                         {
-                            Id = 550,
+                            Id = 509,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.133.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F533",
-                            OutletName = "Shawropkathi Pirojpur"
+                            OutletName = "Swarupkathi Pirojpur"
                         },
                         new
                         {
-                            Id = 551,
+                            Id = 510,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.134.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F534",
-                            OutletName = "Panchar Bazar Madaripur"
+                            OutletName = "Panchar Madaripur"
                         },
                         new
                         {
-                            Id = 552,
+                            Id = 511,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.135.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F535",
@@ -5577,39 +5172,39 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 553,
+                            Id = 512,
                             ISPName = "KS",
-                            ISPPhone = "1733347591.0",
+                            ISPPhone = "1733347591",
                             IpAddress = "172.19.136.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F536",
-                            OutletName = "Kawla Namapara, Uttara Dhaka"
+                            OutletName = "Namapara Kawla"
                         },
                         new
                         {
-                            Id = 554,
+                            Id = 513,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.137.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F537",
-                            OutletName = "Charmuguria, Madaripur sadar"
+                            OutletName = "Charmuguria Madaripur"
                         },
                         new
                         {
-                            Id = 555,
+                            Id = 514,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.138.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F538",
-                            OutletName = "golam Bazar, zinzira"
+                            OutletName = "Golambazar Keraniganj"
                         },
                         new
                         {
-                            Id = 556,
+                            Id = 515,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.139.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F539",
@@ -5617,19 +5212,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 557,
+                            Id = 516,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.140.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F540",
-                            OutletName = "Dalal Bazar Laxmipur"
+                            OutletName = "Dalalbazar Lakshmipur"
                         },
                         new
                         {
-                            Id = 558,
+                            Id = 517,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.140.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F540",
+                            OutletName = "Dalalbazar Lakshmipur"
+                        },
+                        new
+                        {
+                            Id = 518,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.141.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F541",
@@ -5637,129 +5242,159 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 559,
+                            Id = 519,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.141.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F541",
+                            OutletName = "Singair Maniknaganj"
+                        },
+                        new
+                        {
+                            Id = 520,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.142.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F542",
-                            OutletName = "Baufall Patuakhali"
+                            OutletName = "Bauphal Patuakhali"
                         },
                         new
                         {
-                            Id = 560,
+                            Id = 521,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.142.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F542",
+                            OutletName = "Bauphal Patuakhali"
+                        },
+                        new
+                        {
+                            Id = 522,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.143.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F543",
-                            OutletName = "Police Mart Sirajganj"
+                            OutletName = "Collectorate Road Sirajganj"
                         },
                         new
                         {
-                            Id = 561,
+                            Id = 523,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.144.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F544",
-                            OutletName = "Parbotipur Dinajpur"
+                            OutletName = "Parbaripur Dinajpur"
                         },
                         new
                         {
-                            Id = 562,
+                            Id = 524,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.145.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F545",
-                            OutletName = "Osmani Nagar Sylhet"
+                            OutletName = "Tajpur Osmaninagar Sylhet"
                         },
                         new
                         {
-                            Id = 563,
+                            Id = 525,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.146.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F546",
-                            OutletName = "CO Bazar Rangpur Sadar"
+                            OutletName = "C O Bazar Rangpur"
                         },
                         new
                         {
-                            Id = 564,
+                            Id = 526,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.147.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F547",
-                            OutletName = "Hetalia Badghat Patuakhali Sadar"
+                            OutletName = "Hetalia Badghat Patuakhali"
                         },
                         new
                         {
-                            Id = 565,
+                            Id = 527,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.148.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F548",
-                            OutletName = "Bhira Pabna"
+                            OutletName = "Bera Pabna"
                         },
                         new
                         {
-                            Id = 566,
+                            Id = 528,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.149.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F549",
-                            OutletName = "Etakhola Kazipara Dhaka"
+                            OutletName = "Itkhola Bazar East Kazipara"
                         },
                         new
                         {
-                            Id = 567,
+                            Id = 529,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.150.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F550",
-                            OutletName = "Bashurhat Noakhali"
+                            OutletName = "Basurhat Noakhali"
                         },
                         new
                         {
-                            Id = 568,
+                            Id = 530,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.151.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F551",
-                            OutletName = "Maniknagar Mugda Dhaka"
+                            OutletName = "Maniknagar"
                         },
                         new
                         {
-                            Id = 569,
+                            Id = 531,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.152.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F552",
-                            OutletName = "Bosila RAB HQ"
+                            OutletName = "RAB-2  Head Quarter Mor, Bosila"
                         },
                         new
                         {
-                            Id = 570,
+                            Id = 532,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.153.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F553",
-                            OutletName = "Bakalia access road Chittagong"
+                            OutletName = "Access Road CTG"
                         },
                         new
                         {
-                            Id = 571,
+                            Id = 533,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.153.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F553",
+                            OutletName = "Access Road CTG"
+                        },
+                        new
+                        {
+                            Id = 534,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.154.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F554",
@@ -5767,9 +5402,9 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 572,
+                            Id = 535,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.155.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F555",
@@ -5777,19 +5412,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 573,
+                            Id = 536,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.156.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F556",
-                            OutletName = "Sardarbari Dakshin Khan Dhaka"
+                            OutletName = "Sarder Bari Dakshinkhan"
                         },
                         new
                         {
-                            Id = 574,
+                            Id = 537,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.157.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F557",
@@ -5797,19 +5432,19 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 575,
+                            Id = 538,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.158.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F558",
-                            OutletName = "Rajpat Kashiani Gopalganj"
+                            OutletName = "Rajpat Gopalganj"
                         },
                         new
                         {
-                            Id = 576,
+                            Id = 539,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.159.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F559",
@@ -5817,279 +5452,29 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 577,
+                            Id = 540,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.140.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F540",
-                            OutletName = "Dalal Bazar Laxmipur"
-                        },
-                        new
-                        {
-                            Id = 578,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.153.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F553",
-                            OutletName = "Bakalia access road Ctg"
-                        },
-                        new
-                        {
-                            Id = 579,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.164.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F564",
-                            OutletName = "Banara Mouchak Gazipur"
-                        },
-                        new
-                        {
-                            Id = 580,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.170.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F570",
-                            OutletName = "Dhamura Bazar Barishal"
-                        },
-                        new
-                        {
-                            Id = 581,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.168.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F568",
-                            OutletName = "Baluchara CTG"
-                        },
-                        new
-                        {
-                            Id = 582,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.161.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F561",
-                            OutletName = "Prosika Mor Mawna"
-                        },
-                        new
-                        {
-                            Id = 583,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.169.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F569",
-                            OutletName = "Shaw Raod Barishal"
-                        },
-                        new
-                        {
-                            Id = 584,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.175.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F575",
-                            OutletName = "Miabari Raod Kuril"
-                        },
-                        new
-                        {
-                            Id = 585,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.181.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F581",
-                            OutletName = "Monohordi Bazar, Narshingdi"
-                        },
-                        new
-                        {
-                            Id = 586,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.176.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F576",
-                            OutletName = "Dholpur Uttar Jatrabari"
-                        },
-                        new
-                        {
-                            Id = 587,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.174.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F574",
-                            OutletName = "Shahjaha Sir Rd Hazaribagh"
-                        },
-                        new
-                        {
-                            Id = 588,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.177.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F577",
-                            OutletName = "Boalmari Faridpur"
-                        },
-                        new
-                        {
-                            Id = 589,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.182.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F582",
-                            OutletName = "Islamnagar Jahangirngar University Area"
-                        },
-                        new
-                        {
-                            Id = 590,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.185.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F585",
-                            OutletName = "Bhanga Faridpur"
-                        },
-                        new
-                        {
-                            Id = 591,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.179.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F579",
-                            OutletName = "Bottola Masjid Manda"
-                        },
-                        new
-                        {
-                            Id = 592,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.186.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F586",
-                            OutletName = "Pakullah Tangail"
-                        },
-                        new
-                        {
-                            Id = 593,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.178.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F578",
-                            OutletName = "Sapnodhara Housing Bosila"
-                        },
-                        new
-                        {
-                            Id = 594,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.188.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F588",
-                            OutletName = "Dhali Bari Bazar Vatara"
-                        },
-                        new
-                        {
-                            Id = 595,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.165.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F565",
-                            OutletName = "T & T or DIT Bazar Tongi"
-                        },
-                        new
-                        {
-                            Id = 596,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.160.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F560",
-                            OutletName = "Kamar Mor, Rangpur Sadar"
+                            OutletName = "Khamar Mor Rangpur"
                         },
                         new
                         {
-                            Id = 597,
+                            Id = 541,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.171.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.161.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F571",
-                            OutletName = "West Dholaipar Juktibadi Goli"
+                            OutletCode = "F561",
+                            OutletName = "Proshika Mor  Mawna Gazipur"
                         },
                         new
                         {
-                            Id = 598,
+                            Id = 542,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.184.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F584",
-                            OutletName = "Bank Colony Savar"
-                        },
-                        new
-                        {
-                            Id = 599,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.187.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F587",
-                            OutletName = "Bolorawa Bazar Harirampur"
-                        },
-                        new
-                        {
-                            Id = 600,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.141.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F541",
-                            OutletName = "Singair Maniknaganj Outlet"
-                        },
-                        new
-                        {
-                            Id = 601,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.191.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F591",
-                            OutletName = "Banashree G Block Outlet"
-                        },
-                        new
-                        {
-                            Id = 602,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.172.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F572",
-                            OutletName = "Bhawal Mirzapur"
-                        },
-                        new
-                        {
-                            Id = 603,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.166.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F566",
-                            OutletName = "Haiderganj Lashkmipur"
-                        },
-                        new
-                        {
-                            Id = 604,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.162.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F562",
@@ -6097,89 +5482,39 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 605,
+                            Id = 543,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.183.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.164.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F583",
-                            OutletName = "Saddam Market Tushar Bari"
+                            OutletCode = "F564",
+                            OutletName = "Vannara Mouchak Gazipur"
                         },
                         new
                         {
-                            Id = 606,
+                            Id = 544,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.189.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.165.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F589",
-                            OutletName = "Chatmohar Pabna"
+                            OutletCode = "F565",
+                            OutletName = "T & T Bazar Tongi Gazipur"
                         },
                         new
                         {
-                            Id = 607,
+                            Id = 545,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.190.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.166.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F590",
-                            OutletName = "Tetulia Panchagar"
+                            OutletCode = "F566",
+                            OutletName = "Haiderganj Bazar ,Lakshmipur"
                         },
                         new
                         {
-                            Id = 608,
+                            Id = 546,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.192.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F592",
-                            OutletName = "Shankar West Dhanmondi"
-                        },
-                        new
-                        {
-                            Id = 609,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.193.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F593",
-                            OutletName = "Hemayetpur Bazar Bus Stand"
-                        },
-                        new
-                        {
-                            Id = 610,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.200.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F600",
-                            OutletName = "Torki Bandar Gouranadi Barisal"
-                        },
-                        new
-                        {
-                            Id = 611,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.15.243.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F243",
-                            OutletName = "Choto Bazar Netrokona"
-                        },
-                        new
-                        {
-                            Id = 612,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.204.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F604",
-                            OutletName = "Pagla Kanai Jhenaidha"
-                        },
-                        new
-                        {
-                            Id = 613,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.167.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F567",
@@ -6187,119 +5522,59 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 614,
+                            Id = 547,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.197.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.168.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F597",
-                            OutletName = "Rayerbazar Dhanmondi Dhaka"
+                            OutletCode = "F568",
+                            OutletName = "Baluchara Bazar CTG"
                         },
                         new
                         {
-                            Id = 615,
+                            Id = 548,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.210.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.169.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F610",
-                            OutletName = "Bhatiari Chattagram"
+                            OutletCode = "F569",
+                            OutletName = "Shaw Road Barishal"
                         },
                         new
                         {
-                            Id = 616,
+                            Id = 549,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.209.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.170.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F609",
-                            OutletName = "Chawkbazar Chttagram"
+                            OutletCode = "F570",
+                            OutletName = "Dhamura Bazar Barishal"
                         },
                         new
                         {
-                            Id = 617,
+                            Id = 550,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.207.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.171.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F607",
-                            OutletName = "Sorikol Bazar Gouranadi Barisal"
+                            OutletCode = "F571",
+                            OutletName = "West Dholaipar"
                         },
                         new
                         {
-                            Id = 618,
+                            Id = 551,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.205.5",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.172.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F605",
-                            OutletName = "Roumari Kurigram"
+                            OutletCode = "F572",
+                            OutletName = "Bhawal Mirzapur"
                         },
                         new
                         {
-                            Id = 619,
+                            Id = 552,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.208.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F608",
-                            OutletName = "Madaripur Puran Bazar"
-                        },
-                        new
-                        {
-                            Id = 620,
-                            ISPName = "KS",
-                            ISPPhone = "1733347591.0",
-                            IpAddress = "172.19.198.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F498",
-                            OutletName = "Sonagazi Outlet Feni"
-                        },
-                        new
-                        {
-                            Id = 621,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.195.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F595",
-                            OutletName = "Banshree C Block"
-                        },
-                        new
-                        {
-                            Id = 622,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.211.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F611",
-                            OutletName = "Lebukhali Pagla Mor Patuakhali"
-                        },
-                        new
-                        {
-                            Id = 623,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.212.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F612",
-                            OutletName = "Natiapara Tangail"
-                        },
-                        new
-                        {
-                            Id = 624,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.142.5",
-                            LastPingStatus = "Not checked",
-                            OutletCode = "F542",
-                            OutletName = "Baufall Patuakhali"
-                        },
-                        new
-                        {
-                            Id = 625,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.173.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F573",
@@ -6307,9 +5582,358 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 626,
+                            Id = 553,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.174.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F574",
+                            OutletName = "Jhauchar  Hazaribagh"
+                        },
+                        new
+                        {
+                            Id = 554,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.175.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F575",
+                            OutletName = "Miabari Road Kuril"
+                        },
+                        new
+                        {
+                            Id = 555,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.176.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F576",
+                            OutletName = "Dhalpur Uttar Jatrabari"
+                        },
+                        new
+                        {
+                            Id = 556,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.177.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F577",
+                            OutletName = "Boalmari Faridpur"
+                        },
+                        new
+                        {
+                            Id = 557,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.178.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F578",
+                            OutletName = "Sapnodhara Housing Bosila"
+                        },
+                        new
+                        {
+                            Id = 558,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.179.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F579",
+                            OutletName = "Manda, Basabo"
+                        },
+                        new
+                        {
+                            Id = 559,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.181.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F581",
+                            OutletName = "Monohardi Narsingdi"
+                        },
+                        new
+                        {
+                            Id = 560,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.182.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F582",
+                            OutletName = "Islamnagar Savar (JU)"
+                        },
+                        new
+                        {
+                            Id = 561,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.183.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F583",
+                            OutletName = "Tushardhara R/A, Kadamtail"
+                        },
+                        new
+                        {
+                            Id = 562,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.184.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F584",
+                            OutletName = "Bank Coloy Savar"
+                        },
+                        new
+                        {
+                            Id = 563,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.185.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F585",
+                            OutletName = "Bangha Faridpur"
+                        },
+                        new
+                        {
+                            Id = 564,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.186.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F586",
+                            OutletName = "Pakulla Mirzapur"
+                        },
+                        new
+                        {
+                            Id = 565,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.187.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F587",
+                            OutletName = "Balora Bazar Harirampur Manikganj"
+                        },
+                        new
+                        {
+                            Id = 566,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.188.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F588",
+                            OutletName = "Dhali Bari Bazar Vatara"
+                        },
+                        new
+                        {
+                            Id = 567,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.189.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F589",
+                            OutletName = "Chatmohar Pabna"
+                        },
+                        new
+                        {
+                            Id = 568,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.190.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F590",
+                            OutletName = "Tetulia Panchagar"
+                        },
+                        new
+                        {
+                            Id = 569,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.191.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F591",
+                            OutletName = "Block-G ,Banasree"
+                        },
+                        new
+                        {
+                            Id = 570,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.192.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F592",
+                            OutletName = "Shankar West Dhanmondi"
+                        },
+                        new
+                        {
+                            Id = 571,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.193.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F593",
+                            OutletName = "Hemayetpur Bus Stand"
+                        },
+                        new
+                        {
+                            Id = 572,
+                            ISPName = "nan",
+                            IpAddress = "172.19.194.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F594",
+                            OutletName = "Porabari Bazar Uttar Salna"
+                        },
+                        new
+                        {
+                            Id = 573,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.195.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F595",
+                            OutletName = "Block –C , Banashree"
+                        },
+                        new
+                        {
+                            Id = 574,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.197.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F597",
+                            OutletName = "Rayer Bazar Dhanmondi"
+                        },
+                        new
+                        {
+                            Id = 575,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.198.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F598",
+                            OutletName = "Kunjerhat Bhola"
+                        },
+                        new
+                        {
+                            Id = 576,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.199.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F599",
+                            OutletName = "Sultan Market Sardaganj"
+                        },
+                        new
+                        {
+                            Id = 577,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.200.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F600",
+                            OutletName = "Torki Bandar Gournadi"
+                        },
+                        new
+                        {
+                            Id = 578,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.202.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F602",
+                            OutletName = "Kacharibazar Rangpur"
+                        },
+                        new
+                        {
+                            Id = 579,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.204.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F604",
+                            OutletName = "Pagla Kanai Road Jhenaidah"
+                        },
+                        new
+                        {
+                            Id = 580,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.205.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F605",
+                            OutletName = "Rowmari Kurigram"
+                        },
+                        new
+                        {
+                            Id = 581,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.206.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F606",
+                            OutletName = "Brahmanchiron Dhalpur"
+                        },
+                        new
+                        {
+                            Id = 582,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.207.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F607",
+                            OutletName = "Sarikol Bazar Gournadi"
+                        },
+                        new
+                        {
+                            Id = 583,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.208.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F608",
+                            OutletName = "Puran Bazar Madaripur"
+                        },
+                        new
+                        {
+                            Id = 584,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.209.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F609",
+                            OutletName = "Chawk Bazar CTG"
+                        },
+                        new
+                        {
+                            Id = 585,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.210.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F610",
+                            OutletName = "Bhatiary CTG"
+                        },
+                        new
+                        {
+                            Id = 586,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.211.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F611",
+                            OutletName = "Lebukhali Patuakhali"
+                        },
+                        new
+                        {
+                            Id = 587,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
+                            IpAddress = "172.19.212.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F612",
+                            OutletName = "Natiapara Bazar Delduar Tangail"
+                        },
+                        new
+                        {
+                            Id = 588,
+                            ISPName = "Circle",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.213.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F613",
@@ -6317,53 +5941,513 @@ namespace WebApplication2.Migrations
                         },
                         new
                         {
-                            Id = 627,
+                            Id = 589,
                             ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
+                            ISPPhone = "1944443331",
                             IpAddress = "172.19.214.5",
                             LastPingStatus = "Not checked",
                             OutletCode = "F614",
-                            OutletName = "Baghbari Lakshmipur"
+                            OutletName = "Bagbari Lakshmipur"
+                        },
+                        new
+                        {
+                            Id = 590,
+                            ISPName = "nan",
+                            IpAddress = "172.19.215.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F615",
+                            OutletName = "Rabir Bazar Kulaura"
+                        },
+                        new
+                        {
+                            Id = 591,
+                            ISPName = "nan",
+                            IpAddress = "172.19.216.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F616",
+                            OutletName = "College Road Chuadanga"
+                        },
+                        new
+                        {
+                            Id = 592,
+                            ISPName = "nan",
+                            IpAddress = "172.19.217.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F617",
+                            OutletName = "Khandaker Market Vatara"
+                        },
+                        new
+                        {
+                            Id = 593,
+                            ISPName = "nan",
+                            IpAddress = "172.19.219.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F619",
+                            OutletName = "Muladi Barishal"
+                        },
+                        new
+                        {
+                            Id = 594,
+                            ISPName = "nan",
+                            IpAddress = "172.19.220.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F620",
+                            OutletName = "Alamdanga Chuadanga"
+                        },
+                        new
+                        {
+                            Id = 595,
+                            ISPName = "nan",
+                            IpAddress = "172.19.221.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F621",
+                            OutletName = "Sagardi Barishal"
+                        },
+                        new
+                        {
+                            Id = 596,
+                            ISPName = "nan",
+                            IpAddress = "172.19.222.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F622",
+                            OutletName = "Dewanpara Azampur"
+                        },
+                        new
+                        {
+                            Id = 597,
+                            ISPName = "nan",
+                            IpAddress = "172.19.223.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F623",
+                            OutletName = "Southern Medical Mor Faridpur"
+                        },
+                        new
+                        {
+                            Id = 598,
+                            ISPName = "nan",
+                            IpAddress = "172.19.224.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F624",
+                            OutletName = "H Block Eastern Housing"
+                        },
+                        new
+                        {
+                            Id = 599,
+                            ISPName = "nan",
+                            IpAddress = "172.19.226.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F626",
+                            OutletName = "Shahzadpur Sirajganj"
+                        },
+                        new
+                        {
+                            Id = 600,
+                            ISPName = "nan",
+                            IpAddress = "172.19.227.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F627",
+                            OutletName = "Barura Cumilla"
+                        },
+                        new
+                        {
+                            Id = 601,
+                            ISPName = "nan",
+                            IpAddress = "172.19.228.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F628",
+                            OutletName = "nan"
+                        },
+                        new
+                        {
+                            Id = 602,
+                            ISPName = "nan",
+                            IpAddress = "172.19.229.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F629",
+                            OutletName = "Jorpukur Joydebpur"
+                        },
+                        new
+                        {
+                            Id = 603,
+                            ISPName = "nan",
+                            IpAddress = "172.19.230.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F630",
+                            OutletName = "Hatibandha Lalmonirhat"
+                        },
+                        new
+                        {
+                            Id = 604,
+                            ISPName = "nan",
+                            IpAddress = "172.19.231.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F631",
+                            OutletName = "F-Block , Aftabnagar"
+                        },
+                        new
+                        {
+                            Id = 605,
+                            ISPName = "nan",
+                            IpAddress = "172.19.232.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F632",
+                            OutletName = "Kotchandpur Jhenaidah"
+                        },
+                        new
+                        {
+                            Id = 606,
+                            ISPName = "nan",
+                            IpAddress = "172.19.233.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F633",
+                            OutletName = "Noya Nagar Khilkhet"
+                        },
+                        new
+                        {
+                            Id = 607,
+                            ISPName = "nan",
+                            IpAddress = "172.19.234.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F634",
+                            OutletName = "Kotalipara Gopalganj"
+                        },
+                        new
+                        {
+                            Id = 608,
+                            ISPName = "nan",
+                            IpAddress = "172.19.235.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F635",
+                            OutletName = "Ibrahimpur Bazar Road"
+                        },
+                        new
+                        {
+                            Id = 609,
+                            ISPName = "nan",
+                            IpAddress = "172.19.238.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F638",
+                            OutletName = "Ghosh Para Mor Rajshahi"
+                        },
+                        new
+                        {
+                            Id = 610,
+                            ISPName = "nan",
+                            IpAddress = "172.19.239.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F639",
+                            OutletName = "Chilmari Kurigram"
+                        },
+                        new
+                        {
+                            Id = 611,
+                            ISPName = "nan",
+                            IpAddress = "172.19.240.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F640",
+                            OutletName = "Niamati Bazar Bakerganj"
+                        },
+                        new
+                        {
+                            Id = 612,
+                            ISPName = "nan",
+                            IpAddress = "172.19.241.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F641",
+                            OutletName = "Banolata R/A, Poschim Agargaon"
+                        },
+                        new
+                        {
+                            Id = 613,
+                            ISPName = "nan",
+                            IpAddress = "172.19.242.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F642",
+                            OutletName = "Painadi Siddirganj"
+                        },
+                        new
+                        {
+                            Id = 614,
+                            ISPName = "nan",
+                            IpAddress = "172.19.244.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F644",
+                            OutletName = "P.T.I Road Habiganj"
+                        },
+                        new
+                        {
+                            Id = 615,
+                            ISPName = "nan",
+                            IpAddress = "172.19.245.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F645",
+                            OutletName = "Bhuapur Tangail"
+                        },
+                        new
+                        {
+                            Id = 616,
+                            ISPName = "nan",
+                            IpAddress = "172.19.246.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F646",
+                            OutletName = "Bahrampur Rajshahi"
+                        },
+                        new
+                        {
+                            Id = 617,
+                            ISPName = "nan",
+                            IpAddress = "172.19.247.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F647",
+                            OutletName = "Ispahani Aganagar"
+                        },
+                        new
+                        {
+                            Id = 618,
+                            ISPName = "nan",
+                            IpAddress = "172.19.248.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F648",
+                            OutletName = "Beutha Road Manikganj"
+                        },
+                        new
+                        {
+                            Id = 619,
+                            ISPName = "nan",
+                            IpAddress = "172.19.249.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F649",
+                            OutletName = "Moddho Bazar Daulatkhan Bhola"
+                        },
+                        new
+                        {
+                            Id = 620,
+                            ISPName = "nan",
+                            IpAddress = "172.19.250.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F650",
+                            OutletName = "Bottola Barishal"
+                        },
+                        new
+                        {
+                            Id = 621,
+                            ISPName = "nan",
+                            IpAddress = "172.19.251.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F651",
+                            OutletName = "Lohagara Chattogram"
+                        },
+                        new
+                        {
+                            Id = 622,
+                            ISPName = "nan",
+                            IpAddress = "172.19.252.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F652",
+                            OutletName = "Atipara Bazar Uttar Khan"
+                        },
+                        new
+                        {
+                            Id = 623,
+                            ISPName = "nan",
+                            IpAddress = "172.19.253.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F653",
+                            OutletName = "Pilot High School Road Gournadi"
+                        },
+                        new
+                        {
+                            Id = 624,
+                            ISPName = "nan",
+                            IpAddress = "172.19.254.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F654",
+                            OutletName = "Datterhat Noakhali"
+                        },
+                        new
+                        {
+                            Id = 625,
+                            ISPName = "nan",
+                            IpAddress = "172.19.255.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F655",
+                            OutletName = "Raninagar Naogaon"
+                        },
+                        new
+                        {
+                            Id = 626,
+                            ISPName = "nan",
+                            IpAddress = "172.22.56.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F656",
+                            OutletName = "Islampur ( Hanumantola) Rangpur"
+                        },
+                        new
+                        {
+                            Id = 627,
+                            ISPName = "nan",
+                            IpAddress = "172.22.57.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "F657",
+                            OutletName = "Road-1, Banasree G Block"
                         },
                         new
                         {
                             Id = 628,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.202.5",
+                            ISPName = "nan",
+                            IpAddress = "172.22.59.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F602",
-                            OutletName = "Kachari Bazar Rangpur"
+                            OutletCode = "F659",
+                            OutletName = "Banaripara Barishal"
                         },
                         new
                         {
                             Id = 629,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.206.5",
+                            ISPName = "nan",
+                            IpAddress = "172.22.60.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F606",
-                            OutletName = "Brammonchiron Dholpur Dhaka"
+                            OutletCode = "F660",
+                            OutletName = "Humayun Rashid Chattar Sylhet"
                         },
                         new
                         {
                             Id = 630,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.199.5",
+                            ISPName = "Amber",
+                            ISPPhone = "8001111111",
+                            IpAddress = "172.17.6.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F599",
-                            OutletName = "Sultan Market Sardarganj"
+                            OutletCode = "K006",
+                            OutletName = "Sher-E-Bangla Road, Khulna"
                         },
                         new
                         {
                             Id = 631,
-                            ISPName = "Circle",
-                            ISPPhone = "1944443331.0",
-                            IpAddress = "172.19.198.5",
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.17.7.5",
                             LastPingStatus = "Not checked",
-                            OutletCode = "F598",
-                            OutletName = "Kunjerhat Bhola"
+                            OutletCode = "K007",
+                            OutletName = "Boyra, Khulna"
+                        },
+                        new
+                        {
+                            Id = 632,
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.18.108.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "K008",
+                            OutletName = "South Central Road (Khulna)"
+                        },
+                        new
+                        {
+                            Id = 633,
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.17.8.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "R008",
+                            OutletName = "Bogura"
+                        },
+                        new
+                        {
+                            Id = 634,
+                            ISPName = "CCL",
+                            ISPPhone = "1841073044",
+                            IpAddress = "172.18.9.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "R009",
+                            OutletName = "Joypurhat"
+                        },
+                        new
+                        {
+                            Id = 635,
+                            ISPName = "CCL",
+                            ISPPhone = "1841073044",
+                            IpAddress = "172.18.10.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "R010",
+                            OutletName = "Naogaon Old Bus Stand"
+                        },
+                        new
+                        {
+                            Id = 636,
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.18.11.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "R011",
+                            OutletName = "Rajshahi Alupatti"
+                        },
+                        new
+                        {
+                            Id = 637,
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.17.27.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "S001",
+                            OutletName = "Uposhahor-Multiplan"
+                        },
+                        new
+                        {
+                            Id = 638,
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.17.26.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "S002",
+                            OutletName = "Shibgong-Sylmark"
+                        },
+                        new
+                        {
+                            Id = 639,
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.17.25.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "S003",
+                            OutletName = "Pathantola-Sunrise"
+                        },
+                        new
+                        {
+                            Id = 640,
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.17.28.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "S006",
+                            OutletName = "Zindabazar"
+                        },
+                        new
+                        {
+                            Id = 641,
+                            ISPName = "Drick",
+                            ISPPhone = "1755500066",
+                            IpAddress = "172.17.29.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "S007",
+                            OutletName = "Beanibazar"
+                        },
+                        new
+                        {
+                            Id = 642,
+                            ISPName = "ADN",
+                            ISPPhone = "16615",
+                            IpAddress = "172.17.30.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "S008",
+                            OutletName = "Amberkhana"
+                        },
+                        new
+                        {
+                            Id = 643,
+                            ISPName = "CCL",
+                            ISPPhone = "1841073044",
+                            IpAddress = "172.17.31.5",
+                            LastPingStatus = "Not checked",
+                            OutletCode = "S009",
+                            OutletName = "Moulvibazar"
                         });
                 });
 #pragma warning restore 612, 618
