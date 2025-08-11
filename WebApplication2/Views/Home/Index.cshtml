@@ -5,306 +5,242 @@
     var searchTerm = Context.Request.Query["searchTerm"];
 }
 
-<h2 class="mb-3">Ping Monitor</h2>
+<h2 class="mb-4 fw-bold text-success">
+    <i class="fas fa-network-wired me-2"></i>Ping Monitor
+</h2>
 
-
-<div class="row mb-5">
-    <!-- Column 1: Search Form -->
-    <div class="col-md-4">
-        <form id="searchForm" asp-action="Index" method="get" class="input-group">
-            <input type="text" id="searchInput" name="searchTerm" class="form-control" placeholder="Search by Outlet Name or Code..." value="@Context.Request.Query["searchTerm"]" autocomplete="off" />
-            <button class="btn btn-outline-secondary" type="submit">Search</button>
-             </form>
-        <div style="height:100px;">
-           
-            <div id="loadingSpinner" class="text-center mt-5 col-md-6" style="display: none;">
-                @* <div class="spinner-border text-primary" role="status"> *@
-                @*     <span class="visually-hidden">Loading...</span> *@
-                @* </div> *@
-                @* <p>Checking connections... .</p> *@
-               
-                    <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
-                    <span role="status">Checking connections...</span>
-               
-            </div>
+<div class="row g-3 mb-4">
+    <!-- Search -->
+    <div class="col-lg-4 col-md-6">
+        <div class="input-group shadow-sm">
+            <span class="input-group-text bg-light"><i class="fas fa-search"></i></span>
+            <input type="text" id="searchInput" name="searchTerm" class="form-control"
+                   placeholder="Search by Outlet Name or Code..."
+                   value="@searchTerm" autocomplete="off" />
         </div>
-       
-
-
-
     </div>
 
-    <!-- Column 2: Check Connections Button -->
-    <div class="col-md-4">
-        <form method="post" asp-action="CheckConnections" id="checkConnectionsForm">
-            <button type="submit" class="btn btn-primary w-50">Check All Connections</button>
+    <!-- Check Connections -->
+    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+        <form method="post" asp-action="CheckConnections" id="checkConnectionsForm" class="w-100">
+            <button type="submit" class="btn btn-primary w-50 shadow-sm">
+                <i class="fas fa-plug me-2"></i>Check All Connections
+            </button>
         </form>
     </div>
 
-    <!-- Column 3: Pie Chart -->
-    <div class="col-md-4 text-center">
-        <canvas id="pieChart" width="200" height="200"></canvas>
-
-        <div class="legend mt-3 d-flex justify-content-center flex-wrap gap-3">
-            <div class="legend-item d-flex align-items-center gap-2">
-                <div class="color-box" style="background-color: seagreen; width: 16px; height: 16px;"></div> LINK UP 
-                <span class="fw-bold fs-5">
-                    @{
-                        @ViewData["Uplink"].ToString()
-                        ;
-                    }
-                </span>
-            </div>
-            <div>
-
-                
-            </div>
-            <div class="legend-item d-flex align-items-center gap-2">
-                <div class="color-box" style="background-color: yellow; width: 16px; height: 16px;"></div> HIGH Latency
-                <span class="fw-bold fs-5">
-                    @{
-                        @ViewData["HighPing"].ToString()
-                        ;
-                    }
-                </span>
-            </div>
-            <div class="legend-item d-flex align-items-center gap-2">
-                <div class="color-box" style="background-color: crimson; width: 16px; height: 16px;"></div> DOWN
-                <span class="fw-bold fs-5">
-                    @{
-                        @ViewData["TotalDown"].ToString()
-                        ;
-                    }
-                </span>
-            </div>
-        </div>
-        
+    <!-- Status Filters -->
+    <div class="col-lg-4 col-md-12 d-flex justify-content-lg-end gap-3">
+        <button class="btn btn-info position-relative"
+                onclick="location.href='@Url.Action("Index", new { filter = "all" })'">
+            ALL
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">
+                @ViewData["Alloutlets"]
+            </span>
+        </button>
+        <button class="btn btn-success position-relative"
+                onclick="location.href='@Url.Action("Index", new { filter = "good" })'">
+            Linked Up
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">
+                @ViewData["Uplink"]
+            </span>
+        </button>
+        <button class="btn btn-warning position-relative"
+                onclick="location.href='@Url.Action("Index", new { filter = "highping" })'">
+            High Ping
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-dark">
+                @ViewData["HighPing"]
+            </span>
+        </button>
+        <button class="btn btn-danger position-relative"
+                onclick="location.href='@Url.Action("Index", new { filter = "lost" })'">
+            Disconnected
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-warning text-dark">
+                @ViewData["TotalDown"]
+            </span>
+        </button>
     </div>
 </div>
 
-
-
-
-
-<!-- Search Form -->
+<form asp-controller="Report" asp-action="ExportPdf" method="get" class="row g-3 align-items-center mb-4" id="downloadForm">
+    <div class="col-md-4">
+        <select id="ispSelect" name="isp" class="form-select shadow-sm">
+            <option value="">-- Select ISP --</option>
+            <option value="all">ALL</option>
+            <option value="CCL">CCL</option>
+            <option value="ADN">ADN</option>
+            <option value="Amber">Amber</option>
+            <option value="Agni">Agni</option>
+            <option value="Drick">Drick</option>
+            <option value="Circle">Circle</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <button type="submit" class="btn btn-outline-primary shadow-sm">
+            <i class="fas fa-file-download me-2"></i>Download Down Reports
+        </button>
+    </div>
+</form>
 
 <!-- Loading Spinner -->
-
-<!-- Filter Buttons -->
-<div class="mb-2">
-    <a asp-action="Index" class="btn btn-secondary">All</a>
-    @* <a asp-action="Index" asp-route-filter="good" class="btn btn-success">Linked Up  </a> *@
-    @* <a asp-action="Index" asp-route-filter="highping" class="btn btn-warning">High Ping</a> *@
-    <button type="button" class="btn btn-success position-relative me-3"
-            onclick="location.href='@Url.Action("Index", new { filter = "good" })'">
-        Linked Up
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-            @{
-                @ViewData["Uplink"].ToString()
-                ;
-            }
-            <span class="visually-hidden">unread messages</span>
-        </span>
-    </button>
-    <button type="button" class="btn btn-warning position-relative me-3"
-            onclick="location.href='@Url.Action("Index", new { filter = "highping" })'">
-        High Ping
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger font-weight-bold">
-            @{
-                @ViewData["HighPing"].ToString()
-                ;
-            }
-            <span class="visually-hidden">unread messages</span>
-        </span>
-    </button>
-
-    <button type="button" class="btn btn-danger position-relative"
-            onclick="location.href='@Url.Action("Index", new { filter = "lost" })'">
-        Disconnected
-        <span class="position-absolute text-black-50 top-0 start-100 translate-middle badge rounded-pill bg-warning">
-            @{
-                @ViewData["TotalDown"].ToString();
-            }
-            <span class="visually-hidden">unread messages</span>
-        </span>
-    </button>
-   
+<div id="loadingSpinner" class="text-center mb-3" style="display: none;">
+    <div class="spinner-border text-primary" role="status"></div>
+    <p class="mt-2 text-muted">Checking connections...</p>
 </div>
-@* <div id="chartContainer" style="height: 370px; width: 100%;"></div> *@
-<!-- Data Table -->
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Outlet Code</th>
-            <th>Outlet Name</th>
-            <th>IP Address</th>
-            <th>ISP</th>
-            <th>Phone</th>
-            <th>Status </th>
-            <th>Last Checked</th>
-            <th>Duration</th>
 
-        </tr>
-    </thead>
-    <tbody class="">
-        @foreach (var item in Model)
-        {
+<!-- Table -->
+<div class="table-responsive shadow-sm rounded">
+    <table class="table table-hover align-middle">
+        <thead class="table-dark sticky-top">
             <tr>
-
-                <td class="fw-bold">@item.OutletCode</td>
-                <td>@item.OutletName</td>
-                <td>
-                    <span id="ip-@item.Id">@item.IpAddress</span>
-                    <i id="copy-icon-@item.Id"
-                       class="fas fa-copy text-success"
-                       style="cursor: pointer; margin-left: 5px;"
-                       onclick="copyToClipboard('ip-@item.Id', 'copy-icon-@item.Id')"
-                       title="Copy to clipboard"> </i>
-
-                </td>
-
-
-                @* <td>@item.IpAddress</td> *@
-                <td>@item.ISPName</td>
-                <td>@item.ISPPhone</td>
-               
-                <td>
-                    @if (item.LastPingStatus == "Connection Lost")
-                    {
-                        <span class="text-danger">@item.LastPingStatus</span>
-                        
-                    }
-                    else if (item.LastPingStatus == "High Ping")
-                    {
-                        <span class="text-warning">@item.LastPingStatus</span>
-                    }
-                    else
-                    {
-                        <span class="text-success">@item.LastPingStatus</span>
-                    }
-                </td>
-                <td>@(item.LastPingTime?.ToString("g") ?? "Never")</td>
-
-                @{
-                    DateTime now = DateTime.Now; // Use local time if LastPingTime is local
-                    DateTime? lastPing = item.LastPingTime;
-
-                    TimeSpan? duration = lastPing.HasValue ? now - lastPing.Value : (TimeSpan?)null;
-                }
-                <td>
-                    @(duration.HasValue ? $"{duration.Value.Days}d {duration.Value.Hours}h {duration.Value.Minutes}m ago" : "Never")
-                </td>
-
-
+                <th>Outlet Code</th>
+                <th>Outlet Name</th>
+                <th>IP Address</th>
+                <th>ISP</th>
+                <th>Phone</th>
+                <th>Status</th>
+                <th>Last Checked</th>
+                <th>Duration</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody id="outletTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="fw-bold">@item.OutletCode</td>
+                    <td>@item.OutletName</td>
+                    <td>
+                        <span id="ip-@item.Id">@item.IpAddress</span>
+                        <i id="copy-icon-@item.Id"
+                           class="fas fa-copy text-success ms-2"
+                           style="cursor: pointer;"
+                           onclick="copyToClipboard('ip-@item.Id', 'copy-icon-@item.Id')"
+                           title="Copy to clipboard"></i>
+                    </td>
+                    <td>@item.ISPName</td>
+                    <td>@item.ISPPhone</td>
+                    <td>
+                        @if (item.LastPingStatus == "Connection Lost")
+                        {
+                            <span class="badge bg-danger animate__animated animate__flash">@item.LastPingStatus</span>
+                        }
+                        else if (item.LastPingStatus == "High Ping")
+                        {
+                            <span class="badge bg-warning text-dark">@item.LastPingStatus</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">@item.LastPingStatus</span>
+                        }
+                    </td>
+                    <td>@(item.LastPingTime?.ToString("g") ?? "Never")</td>
+                    @{
+                        DateTime now = DateTime.Now;
+                        DateTime? lastPing = item.LastPingTime;
+                        TimeSpan? duration = lastPing.HasValue ? now - lastPing.Value : (TimeSpan?)null;
+                    }
+                    <td>
+                        @(duration.HasValue ? $"{duration.Value.Days}d {duration.Value.Hours}h {duration.Value.Minutes}m ago" : "Never")
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
 @section Scripts {
     <script>
-        // Auto check and reload every 100000 ms (~1.6 minutes)
-        setInterval(() => {
-            checkConnectionsAndReload();
-        }, 100000);
+        // Auto check every 100 sec
+        setInterval(checkConnectionsAndReload, 100000);
 
         async function checkConnectionsAndReload() {
-            try {
-                document.getElementById("loadingSpinner").style.display = "block";
-                const response = await fetch('@Url.Action("CheckConnections", "Home")', {
-                    method: 'POST'
-                });
-                location.reload();
-            } catch (err) {
-                console.error("Ping check failed", err);
-            }
+            document.getElementById("loadingSpinner").style.display = "block";
+            await fetch('@Url.Action("CheckConnections", "Home")', { method: 'POST' });
+            location.reload();
         }
 
-        // Manual check - show spinner on submit
         document.getElementById("checkConnectionsForm").addEventListener("submit", function () {
             document.getElementById("loadingSpinner").style.display = "block";
         });
 
-                function copyToClipboard(elementId, iconId) {
+        function copyToClipboard(elementId, iconId) {
             var textElement = document.getElementById(elementId);
             var iconElement = document.getElementById(iconId);
 
-            if (!textElement || !iconElement) {
-                alert("Element not found!");
-                return;
-            }
+            if (!textElement || !iconElement) return;
 
             var text = textElement.innerText || textElement.textContent;
 
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(text).then(function () {
-                    showCopiedFeedback(iconElement);
-                }).catch(function (err) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    iconElement.className = "fas fa-check text-primary";
+                    iconElement.title = "Copied!";
+                    setTimeout(() => {
+                        iconElement.className = "fas fa-copy text-success ms-2";
+                        iconElement.title = "Copy to clipboard";
+                    }, 1500);
+                }).catch(err => {
                     alert("Failed to copy: " + err);
                 });
             } else {
-                // Fallback for old browsers
-                const textarea = document.createElement("textarea");
-                textarea.value = text;
-                document.body.appendChild(textarea);
-                textarea.select();
                 try {
-                    document.execCommand('copy');
-                    showCopiedFeedback(iconElement);
+                    const textarea = document.createElement("textarea");
+                    textarea.value = text;
+                    textarea.style.position = "fixed";
+                    document.body.appendChild(textarea);
+                    textarea.focus();
+                    textarea.select();
+                    if (document.execCommand("copy")) {
+                        iconElement.className = "fas fa-check text-primary";
+                        iconElement.title = "Copied!";
+                        setTimeout(() => {
+                            iconElement.className = "fas fa-copy text-success ms-2";
+                            iconElement.title = "Copy to clipboard";
+                        }, 1500);
+                    } else {
+                        alert("Copy command failed");
+                    }
+                    document.body.removeChild(textarea);
                 } catch (err) {
-                    alert("Fallback copy failed: " + err);
+                    alert("Failed to copy: " + err);
                 }
-                document.body.removeChild(textarea);
             }
         }
 
-        // 👇 This function handles the icon change and revert
-        function showCopiedFeedback(iconElement) {
-            const originalClass = iconElement.className;
-            iconElement.className = "fas fa-check text-primary";
-            iconElement.title = "Copied!";
+        // 🚀 Improved Search Filter (Fast, Debounced, Cached)
+        const searchInput = document.getElementById("searchInput");
+        const rows = Array.from(document.querySelectorAll("#outletTableBody tr"));
 
-            // Revert back after 1.5 seconds
-            setTimeout(() => {
-                iconElement.className = originalClass;
-                iconElement.title = "Copy to clipboard";
-            }, 1500);
-        }
+        // Cache text content (Outlet Code + Name + IP + ISP)
+        const rowCache = rows.map(row => {
+            const cells = row.querySelectorAll("td");
+            return {
+                element: row,
+                text: (cells[0].textContent + " " + cells[1].textContent + " " + cells[2].textContent + " " + cells[3].textContent).toLowerCase()
+            };
+        });
 
-    </script>
+        let debounceTimer;
+        searchInput.addEventListener("input", function () {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                const filter = searchInput.value.trim().toLowerCase();
+                rowCache.forEach(row => {
+                    row.element.style.display = row.text.includes(filter) ? "" : "none";
+                });
+            }, 300); // 300ms delay
+        });
 
-    <script>
-        // Pie Chart Drawing
-        const canvas = document.getElementById('pieChart');
-        const ctx = canvas.getContext('2d');
-
-        const data = [@ViewData["Uplink"], @ViewData["TotalDown"], @ViewData["HighPing"]];
-        const colors = ['seagreen', 'crimson', 'yellow'];
-        const total = data.reduce((a, b) => a + b, 0);
-        let startAngle = 0;
-
-        data.forEach((value, index) => {
-            const sliceAngle = (value / total) * 2 * Math.PI;
-
-            ctx.beginPath();
-            ctx.moveTo(100, 100);
-            ctx.arc(100, 100, 100, startAngle, startAngle + sliceAngle);
-            ctx.closePath();
-            ctx.fillStyle = colors[index];
-            ctx.fill();
-
-            const midAngle = startAngle + sliceAngle / 2;
-            const labelX = 100 + Math.cos(midAngle) * 60;
-            const labelY = 100 + Math.sin(midAngle) * 60;
-            const percent = Math.round((value / total) * 100);
-
-            ctx.fillStyle = '#fff';
-            ctx.font = 'bold 16px Arial';
-            ctx.textAlign = 'center';
-            ctx.fillText(`${percent}%`, labelX, labelY);
-
-            startAngle += sliceAngle;
+        // Validate ISP before download
+        document.getElementById("downloadForm").addEventListener("submit", function (event) {
+            var ispSelect = document.getElementById("ispSelect");
+            if (!ispSelect.value) {
+                event.preventDefault();
+                alert("Please select an ISP before downloading the report.");
+                ispSelect.focus();
+            }
         });
     </script>
-}
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+}

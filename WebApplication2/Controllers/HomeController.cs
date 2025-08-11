@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using QuestPDF.Fluent;
 using WebApplication2.Models;
+using WebApplication2.Reports;
 using WebApplication2.Services;
-
 namespace WebApplication2.Controllers
 {
     public class HomeController : Controller
@@ -19,7 +20,7 @@ namespace WebApplication2.Controllers
         public async Task<IActionResult> Index(string filter, string searchTerm)
         {
             var outlets = await _context.Outlets.ToListAsync();
-            
+            ViewData["Alloutlets"] = outlets.Count();
             var totalDown = outlets.Count(a => a.LastPingStatus == "Connection Lost");
             ViewData["TotalDown"] = totalDown;
 
@@ -48,6 +49,9 @@ namespace WebApplication2.Controllers
                         break;
                     case "lost":
                         outlets = outlets.Where(x => x.LastPingStatus == "Connection Lost").ToList();
+                        break;
+                    case "all":
+                        outlets = outlets.Where(x => x.OutletCode.Count() == x.OutletCode.Count() ).ToList();
                         break;
                 }
             }
@@ -106,5 +110,50 @@ namespace WebApplication2.Controllers
 
             return RedirectToAction("Index");
         }
+
+
+        [Route("Report/ExportPdf")]
+        public IActionResult ExportPdf(string isp)
+        {
+            if (string.IsNullOrEmpty(isp))
+                return BadRequest("Please select a valid ISP.");
+
+          
+
+            if (isp=="all")
+            {
+                var outlets = _context.Outlets
+                    .Where(x => x.LastPingStatus == "Connection Lost")
+                    .ToList();
+                int uplink = outlets.Count(x => x.LastPingStatus == "Linked Up");
+                int down = outlets.Count(x => x.LastPingStatus == "Connection Lost");
+                int highPing = outlets.Count(x => x.LastPingStatus == "High Ping");
+                var logoPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Image", "acilogistics.jpeg");
+                var report = new PingMonitorReport(outlets, uplink, down, highPing, logoPath);
+                var pdfBytes = report.GeneratePdf();
+
+                return File(pdfBytes, "application/pdf", $"PingMonitor_{isp}_{DateTime.Now:yyyyMMddHHmm}.pdf");
+            }
+            else
+            {
+                var outlets = _context.Outlets
+              .Where(x => x.LastPingStatus == "Connection Lost" && x.ISPName == isp)
+              .ToList();
+                int uplink = outlets.Count(x => x.LastPingStatus == "Linked Up");
+                int down = outlets.Count(x => x.LastPingStatus == "Connection Lost");
+                int highPing = outlets.Count(x => x.LastPingStatus == "High Ping");
+                var logoPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Image", "acilogistics.jpeg");
+                var report = new PingMonitorReport(outlets, uplink, down, highPing, logoPath);
+                var pdfBytes = report.GeneratePdf();
+                return File(pdfBytes, "application/pdf", $"PingMonitor_{isp}_{DateTime.Now:yyyyMMddHHmm}.pdf");
+            }
+          
+        }
     }
-}
+
+            
+
+            
+
+    }
+
